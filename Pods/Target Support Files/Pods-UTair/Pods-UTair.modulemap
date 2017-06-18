@@ -1,0 +1,6 @@
+framework module Pods_UTair {
+  umbrella header "Pods-UTair-umbrella.h"
+
+  export *
+  module * { export * }
+}

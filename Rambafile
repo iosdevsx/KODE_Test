@@ -1,0 +1,27 @@
+### Headers settings
+company: UTair.KD
+
+### Xcode project settings
+project_name: UTair
+xcodeproj_path: UTair.xcodeproj
+prefix: KD
+
+### Code generation settings section
+# The main project target name
+project_target: UTair
+
+# The file path for new modules
+project_file_path: UTair/Modules
+
+# The Xcode group path to new modules
+project_group_path: UTair/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+- {name: rviper_controller}
+- {name: mvvm_controller}
+- {name: swifty_viper}
+- {name: viperSwift}

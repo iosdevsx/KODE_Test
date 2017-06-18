@@ -7,21 +7,287 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BB0EDB95940A368301FDB4 /* KDDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA730ECD4CF0736D9CD59E /* KDDatePickerViewController.swift */; };
+		04DE6972C9999F98F267C304 /* KDRegistrationInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6635BF42590F0CEF7153D21F /* KDRegistrationInteractorOutput.swift */; };
+		0745822A74EE964218EB24CD /* KDTicketsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3D37B9EB6C4C710F5C00 /* KDTicketsModuleInput.swift */; };
+		0B1FCF0FC90A4D76E73DC465 /* KDTicketsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C068AB99BAAA9922851F2F1 /* KDTicketsViewOutput.swift */; };
+		107D31273F89ECC60CAC70FB /* KDCitiesInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A200E9E389E08D3F0C6D3B0 /* KDCitiesInteractorInput.swift */; };
+		110EB844DE134B0DB87DD39C /* KDRegistrationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910227435A1E7ABA327543F /* KDRegistrationViewOutput.swift */; };
+		1770E3F1ACA2DA9BA3BBA3FA /* KDDatePickerModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A302CD08EBB2C2AB033FA6 /* KDDatePickerModuleInput.swift */; };
+		185761017101E434979E95A1 /* KDTicketsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5923323CCFF877A23E2E8F02 /* KDTicketsInteractorOutput.swift */; };
+		1B6FEE319E8744EA5F542F4E /* KDWeatherListAssemblyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EABCD17DA6DCAC39658D1C /* KDWeatherListAssemblyContainer.swift */; };
+		2129298BC3593862880B6A97 /* KDRootViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C561AB5FAE446157EB338A /* KDRootViewInput.swift */; };
+		28DA158080F31A44EDA0B463 /* KDCitiesViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF72E60B2312C078935E9A /* KDCitiesViewOutput.swift */; };
+		29335BFB4A821B301D61A030 /* KDFlightsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E0BEBB3571E07ACC05F6A3 /* KDFlightsPresenter.swift */; };
+		29E0F0757C1DE01789C7DC75 /* KDCitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2AEE0A4B60C745C19254AD /* KDCitiesViewController.swift */; };
+		2B79150A6108E6AC02A8A4B7 /* KDCitiesRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4333A13DD4D993E451796AB8 /* KDCitiesRouterInput.swift */; };
+		2E2E7E409BBE6E2279B40C3A /* KDRegistrationAssemblyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C511662D9E02BA18244FC2 /* KDRegistrationAssemblyContainer.swift */; };
+		306EA9D20F28BCC58630388E /* KDCitiesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52A17E5181C7FC0C3D0E995 /* KDCitiesRouter.swift */; };
+		30E346DC9AF59FD070018E35 /* KDSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C510B1EEEB70C8BA22C2F95 /* KDSupportViewController.swift */; };
+		36ACB45196672421D8BD9923 /* KDRootAssemblyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA93557F43C214573A7D63A1 /* KDRootAssemblyContainer.swift */; };
+		37C96E0FEA318FE437251978 /* KDSupportPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251D6213641493C1C9CAD1EC /* KDSupportPresenter.swift */; };
+		38CEBAE71AC85C1B57B9E83D /* KDSupportRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831284F7382FFBA489DC9802 /* KDSupportRouter.swift */; };
+		3CB219F5166D484FD8D9C9D6 /* KDRootModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400CA3E1A5233C77C039EAF /* KDRootModuleInput.swift */; };
+		3F3B6A718A23E997110E777A /* KDWeatherListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55050393E86EEF84275F5B8E /* KDWeatherListPresenter.swift */; };
+		3FAB1D0F25707820959FFDE3 /* KDWeatherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0160F4F0D7B6DF3B75D13 /* KDWeatherListViewController.swift */; };
+		44D3E2A46C6274377D4CD3D3 /* KDWeatherListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C834ABBB410C3344CC17DC /* KDWeatherListRouter.swift */; };
+		4812B44B0313B74F0146E206 /* KDWeatherListModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF9AD14D11815732142B09 /* KDWeatherListModuleInput.swift */; };
+		4B8E43AECB9902EF18144182 /* KDDatePickerRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30044C607667BC03A2A1EBD2 /* KDDatePickerRouterInput.swift */; };
+		4BF2B08D77994FABF925D043 /* KDRegistrationViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C3025A1B90B82E60891FA /* KDRegistrationViewInput.swift */; };
+		4C4F521649CC97A19C662D97 /* KDTicketsAssemblyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEFC7F552BB81EFCFBB74FE /* KDTicketsAssemblyContainer.swift */; };
+		4DC31E0498DD35C6D1755B4D /* KDTicketsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B38DA44826D33FD38A673 /* KDTicketsRouterInput.swift */; };
+		52021D51AA1F385BB4855432 /* KDFlightsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88B9B3D2B9EA9C7EFC23D29 /* KDFlightsInteractorOutput.swift */; };
+		5EE24E9ECFD2E3449317744E /* KDSupportModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BC5E70B07F6B631671515 /* KDSupportModuleInput.swift */; };
+		5FDAABF1158F0B55FC585752 /* KDRootInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168E710BD234D239E5A37E79 /* KDRootInteractorOutput.swift */; };
+		610C1457B86543F9B4A82B90 /* KDCitiesAssemblyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617694DCD498A6DAA09F6BDF /* KDCitiesAssemblyContainer.swift */; };
+		61145308A845A46B4E2C880F /* KDFlightsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA587413868F60371ACAC1F /* KDFlightsRouterInput.swift */; };
+		6142222FABE1F4D81B5A9A22 /* KDRootViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43AFFF6A7A1A488587618C4 /* KDRootViewOutput.swift */; };
+		655138E721CBBE0EE4C5C8F7 /* KDWeatherListViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6019C706DFA5AF45424FD08 /* KDWeatherListViewOutput.swift */; };
+		696CEA95DE5AB30F77CB063B /* KDDatePickerViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC693AA3D544DBA0CCA10D7 /* KDDatePickerViewOutput.swift */; };
+		70C70E8C7790C9BDE58FEC87 /* KDTicketsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39CF3210AB67DCAC3543E9 /* KDTicketsInteractor.swift */; };
+		7A178D8A9F5337FEB64BCA36 /* KDRootPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D280FB89FDD2C667980915C /* KDRootPresenter.swift */; };
+		7B48A9CE8D366845EDD46DD6 /* KDSupportViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983E8729E37D2B09AF5717BB /* KDSupportViewOutput.swift */; };
+		8298ED0628B71C8234AC4209 /* KDRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD0AE318DE6C98FA22593D8 /* KDRootViewController.swift */; };
+		8774B004FBB5C189DDFD1937 /* KDDatePickerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D9E8CF4E007D4A554BF8D /* KDDatePickerInteractor.swift */; };
+		8CAF57A31EF41C9800CB9F0D /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF57A11EF41C9800CB9F0D /* PersonCell.swift */; };
+		8CAF57A41EF41C9800CB9F0D /* PersonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CAF57A21EF41C9800CB9F0D /* PersonCell.xib */; };
+		8CAF57A61EF41D0700CB9F0D /* PersonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF57A51EF41D0700CB9F0D /* PersonComponent.swift */; };
+		8CAF57A81EF41D1300CB9F0D /* PersonComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CAF57A71EF41D1300CB9F0D /* PersonComponent.xib */; };
+		8CAF57AA1EF42AFA00CB9F0D /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF57A91EF42AFA00CB9F0D /* WeatherService.swift */; };
+		8CAF57AD1EF42BD300CB9F0D /* WeatherResponseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF57AC1EF42BD300CB9F0D /* WeatherResponseObject.swift */; };
+		8CAF57AF1EF42C5600CB9F0D /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF57AE1EF42C5600CB9F0D /* WeatherModel.swift */; };
+		8CAF57B11EF42CCD00CB9F0D /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF57B01EF42CCD00CB9F0D /* WeatherCell.swift */; };
+		8CAF57B31EF42CD500CB9F0D /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CAF57B21EF42CD500CB9F0D /* WeatherCell.xib */; };
+		8CAF57B51EF42D9700CB9F0D /* WeatherDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF57B41EF42D9700CB9F0D /* WeatherDataSource.swift */; };
 		8CFE4D5F1EE99AA300E07996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D5E1EE99AA300E07996 /* AppDelegate.swift */; };
-		8CFE4D611EE99AA300E07996 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D601EE99AA300E07996 /* ViewController.swift */; };
 		8CFE4D641EE99AA300E07996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE4D621EE99AA300E07996 /* Main.storyboard */; };
 		8CFE4D661EE99AA300E07996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE4D651EE99AA300E07996 /* Assets.xcassets */; };
 		8CFE4D691EE99AA300E07996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE4D671EE99AA300E07996 /* LaunchScreen.storyboard */; };
+		8CFE4D741EEA711000E07996 /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D731EEA711000E07996 /* ApplicationAssembly.swift */; };
+		8CFE4D761EEA8AE000E07996 /* ControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D751EEA8AE000E07996 /* ControllerExtension.swift */; };
+		8CFE4D781EEAA33A00E07996 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D771EEAA33A00E07996 /* Popup.swift */; };
+		8CFE4D7A1EEAA3EE00E07996 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D791EEAA3EE00E07996 /* Constants.swift */; };
+		8CFE4D7C1EEAA44200E07996 /* Popup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE4D7B1EEAA44200E07996 /* Popup.xib */; };
+		8CFE4D841EEAE97700E07996 /* KDSupportDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D831EEAE97700E07996 /* KDSupportDataSource.swift */; };
+		8CFE4D861EEAEAEC00E07996 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D851EEAEAEC00E07996 /* TextCell.swift */; };
+		8CFE4D881EEAEAF600E07996 /* TextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE4D871EEAEAF600E07996 /* TextCell.xib */; };
+		8CFE4D8A1EEAF13800E07996 /* NavigationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D891EEAF13800E07996 /* NavigationStyle.swift */; };
+		8CFE4D8C1EEC4CE700E07996 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D8B1EEC4CE700E07996 /* ColorExtension.swift */; };
+		8CFE4D8E1EEC60FE00E07996 /* KDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D8D1EEC60FE00E07996 /* KDNavigationController.swift */; };
+		8CFE4D901EEC66CC00E07996 /* KDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D8F1EEC66CC00E07996 /* KDButton.swift */; };
+		8CFE4D941EED76B800E07996 /* KDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D931EED76B800E07996 /* KDTextField.swift */; };
+		8CFE4D961EED775B00E07996 /* KDTextFieldContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D951EED775B00E07996 /* KDTextFieldContainer.swift */; };
+		8CFE4D9A1EED7FCC00E07996 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D991EED7FCC00E07996 /* Queue.swift */; };
+		8CFE4D9C1EED7FD900E07996 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D9B1EED7FD900E07996 /* RequestHandler.swift */; };
+		8CFE4D9E1EED7FF400E07996 /* AppNetworkInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D9D1EED7FF400E07996 /* AppNetworkInfo.swift */; };
+		8CFE4DA31EEEB44900E07996 /* CitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4DA21EEEB44900E07996 /* CitiesCell.swift */; };
+		8CFE4DA51EEEB48500E07996 /* CitiesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE4DA41EEEB48500E07996 /* CitiesCell.xib */; };
+		8CFE4DA71EEEB7D300E07996 /* KDFlightsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4DA61EEEB7D300E07996 /* KDFlightsDataSource.swift */; };
+		8CFE4DA91EEEC49900E07996 /* DatesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4DA81EEEC49900E07996 /* DatesCell.swift */; };
+		8CFE4DAB1EEEC4A700E07996 /* DatesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE4DAA1EEEC4A700E07996 /* DatesCell.xib */; };
+		8CFE4DAD1EEF09A900E07996 /* DateViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4DAC1EEF09A900E07996 /* DateViewComponent.swift */; };
+		8CFE4DAF1EEF09BB00E07996 /* DateViewComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE4DAE1EEF09BB00E07996 /* DateViewComponent.xib */; };
+		8CFE4DB11EEF0A9B00E07996 /* KDButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4DB01EEF0A9B00E07996 /* KDButtonStyle.swift */; };
+		8CFE4DEF1EF2B63F00E07996 /* CitiesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4DEE1EF2B63F00E07996 /* CitiesService.swift */; };
+		8CFE4DF31EF2B71F00E07996 /* CityResponseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4DF21EF2B71F00E07996 /* CityResponseObject.swift */; };
+		8CFE4DF51EF2BB4E00E07996 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4DF41EF2BB4E00E07996 /* CityModel.swift */; };
+		8CFE4DF71EF2BEAD00E07996 /* KDCitiesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4DF61EF2BEAD00E07996 /* KDCitiesDataSource.swift */; };
+		8CFE4DFA1EF2C12400E07996 /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4DF81EF2C12400E07996 /* CityCell.swift */; };
+		8CFE4DFB1EF2C12400E07996 /* CityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE4DF91EF2C12400E07996 /* CityCell.xib */; };
+		8CFE4DFD1EF2C45D00E07996 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4DFC1EF2C45D00E07996 /* SearchBar.swift */; };
+		8CFE4DFF1EF2C47200E07996 /* SearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE4DFE1EF2C47200E07996 /* SearchBar.xib */; };
+		8CFE4E011EF2D18900E07996 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4E001EF2D18900E07996 /* StringExtension.swift */; };
+		8E870862C1D4B0CC4630CC4D /* KDWeatherListViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7754FA328901D27B8F1DB9EF /* KDWeatherListViewInput.swift */; };
+		8EDE064C00F117CF8E6E2ECF /* KDDatePickerViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1DBAF882267A1D9050074 /* KDDatePickerViewInput.swift */; };
+		934FD940A21BB710E4B4ACFD /* KDRegistrationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D083D580E24524E2DDA7FDAD /* KDRegistrationInteractor.swift */; };
+		941C285B8ED212E6F24EA645 /* KDDatePickerInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB68782567064921916739D /* KDDatePickerInteractorInput.swift */; };
+		948DB1BC270F440331BB0FFE /* KDRegistrationModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA54ED2768ADDB6DB6E663 /* KDRegistrationModuleInput.swift */; };
+		9619353C4846491CA60E4959 /* KDRegistrationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E5A566C4BFF51B81C505DB /* KDRegistrationRouterInput.swift */; };
+		967C82A9086DA3F87E2EE4F1 /* KDSupportAssemblyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E6B5ABE816C5348620DA46 /* KDSupportAssemblyContainer.swift */; };
+		98C87916D913ACDA48E945AF /* KDWeatherListRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D8CE246F6362C94E1F18D /* KDWeatherListRouterInput.swift */; };
+		9B2E8BEE59746ACE748499D6 /* KDCitiesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858F2241D0B91C69CD5C959C /* KDCitiesInteractor.swift */; };
+		A0CB161F11D00E387ACABCF0 /* KDCitiesViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A822487D58A2D79D67F078FD /* KDCitiesViewInput.swift */; };
+		A4D6515236291DE26BEEED5C /* KDRootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F22DD953F0262E1B522F39B /* KDRootRouter.swift */; };
+		A54A83D59227CC303D606B8F /* KDWeatherListInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4CA2ADF22A45CE1C964002 /* KDWeatherListInteractorInput.swift */; };
+		A7EA4E1DBCCE42D632BCB513 /* KDTicketsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EDF0E388E250EF7B67C2F7 /* KDTicketsPresenter.swift */; };
+		AA212809A2F68A8138F7A2E4 /* KDSupportInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D9C41466C0BD272FD43038 /* KDSupportInteractor.swift */; };
+		AC028A0CF7CAAA9BB2AEE98F /* KDTicketsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3CAA95A8739A954EAAAC31 /* KDTicketsInteractorInput.swift */; };
+		AD3FCF45A91E13CBB28785D1 /* KDCitiesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5E698AB3A10AB62D602C7 /* KDCitiesPresenter.swift */; };
+		AE95F0E405E60F31FB5E7C0C /* KDSupportInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A44E3DED4EF1B9EC7F7FF /* KDSupportInteractorInput.swift */; };
+		B1FC80BF6849631B312EB392 /* KDRegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7549CD4D5BF16AEAC65FA53 /* KDRegistrationPresenter.swift */; };
+		B784366CE0D2E52D33D00ADD /* KDFlightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01788766D167B7C976BB7BAD /* KDFlightsViewController.swift */; };
+		BC533B3F464F9A91D2AF31FD /* KDSupportViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F1939BFFA31F777C71EA4 /* KDSupportViewInput.swift */; };
+		BD11DC1EC5C1C59EF0ACA662 /* KDSupportRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB1B0E777458FEF4EFB7360 /* KDSupportRouterInput.swift */; };
+		BD7CD0D73BC8CF567249714C /* KDRegistrationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B8A4D3A7AB599699F95C6F /* KDRegistrationRouter.swift */; };
+		BE9981A242F23F88D04EA58B /* KDFlightsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458B50BB2C05FFED3716CE74 /* KDFlightsViewOutput.swift */; };
+		BFEBAA84447ACC35BB90C718 /* KDRegistrationInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AB2EEDD37F7CC967CEE64 /* KDRegistrationInteractorInput.swift */; };
+		C250BC61E70C6586C36FF1D6 /* KDTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345179AFB1C24BDBE20072D /* KDTicketsViewController.swift */; };
+		C73ECECF536A32530E9F4E42 /* KDFlightsAssemblyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7003B6683E03D2DBFB54AEAD /* KDFlightsAssemblyContainer.swift */; };
+		D94D322E235D54DF1A265FFA /* KDSupportInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0326D0474470FEFFFF652A4 /* KDSupportInteractorOutput.swift */; };
+		D9E1F5C4B4499CAD9AA33B6E /* KDRootRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1414AC8E6152B1E040B0B38 /* KDRootRouterInput.swift */; };
+		DADACA570B77A20FA9093430 /* KDWeatherListInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3615820BFE0CAA858410DB0 /* KDWeatherListInteractorOutput.swift */; };
+		DB2181B71C74D08834D71DD1 /* KDCitiesModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42E1F9F19368CCC9CDDB3F /* KDCitiesModuleInput.swift */; };
+		DBCA99A5C07CEF72624A0A73 /* KDDatePickerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BEC5B4C7AB8C3280504B7E /* KDDatePickerRouter.swift */; };
+		DCE8587F4A143825C6F3A12A /* KDTicketsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105ADA7F432D80EAE8C5B7DC /* KDTicketsRouter.swift */; };
+		DE46515BDB26139A5AD0AF1A /* KDRootInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAC44C7E066C617B63293DB /* KDRootInteractorInput.swift */; };
+		E2CD256F2AF42C6FA28E33A6 /* KDFlightsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239683B795992ED8910DA03 /* KDFlightsRouter.swift */; };
+		E35E57DB8A1EFA211F94D233 /* KDFlightsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD51E756B7868531F1F9B5 /* KDFlightsModuleInput.swift */; };
+		E5C013FCB9E0E8760D2D9162 /* KDCitiesInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D3DA3DA886B7D759F3A4AF /* KDCitiesInteractorOutput.swift */; };
+		E67F600F1A797EE2BD204C79 /* KDDatePickerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A63580F4CBA0E7BF0D81B9B /* KDDatePickerPresenter.swift */; };
+		E8889D170865C0A6F72E4789 /* KDTicketsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E57C741C7C54CDE89559B0 /* KDTicketsViewInput.swift */; };
+		EC56AD87287EE06F7C1986B8 /* KDFlightsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1BE6DC4A20775D22A8B37D /* KDFlightsViewInput.swift */; };
+		EE3378707944C11193134E53 /* KDDatePickerInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5355AF47C1A17E1B8BE6176E /* KDDatePickerInteractorOutput.swift */; };
+		EF1EA49BC14291D23E6A0492 /* KDFlightsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D8275B582366B017CAE38 /* KDFlightsInteractor.swift */; };
+		F213F6362F99E05BA3697170 /* KDFlightsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DF8FE269A6AAF314B06D1C /* KDFlightsInteractorInput.swift */; };
+		F77BCCD29B848AE7A4F1E4EF /* KDRootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB23DE66096E3397BA5A62 /* KDRootInteractor.swift */; };
+		F9D31EE3B7214B6F86D061A2 /* KDWeatherListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDCA7A8EBD509C03BA0CCB /* KDWeatherListInteractor.swift */; };
+		FC7F6D6EE272205DD1BC1268 /* KDRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9AC960696007435D6CCA7B /* KDRegistrationViewController.swift */; };
+		FEAC42F66D15F48EB89A81BB /* Pods_UTair.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB034C0593CB7941FCCD34F4 /* Pods_UTair.framework */; };
+		FEFF431D8D08B1CE2AFD564D /* KDDatePickerAssemblyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F9A9FDB790AA7331E43682 /* KDDatePickerAssemblyContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00FF9AD14D11815732142B09 /* KDWeatherListModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDWeatherListModuleInput.swift; sourceTree = "<group>"; };
+		01788766D167B7C976BB7BAD /* KDFlightsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDFlightsViewController.swift; sourceTree = "<group>"; };
+		02E6B5ABE816C5348620DA46 /* KDSupportAssemblyContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDSupportAssemblyContainer.swift; sourceTree = "<group>"; };
+		043B38DA44826D33FD38A673 /* KDTicketsRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsRouterInput.swift; sourceTree = "<group>"; };
+		0AAF3D37B9EB6C4C710F5C00 /* KDTicketsModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsModuleInput.swift; sourceTree = "<group>"; };
+		0F1BE6DC4A20775D22A8B37D /* KDFlightsViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDFlightsViewInput.swift; sourceTree = "<group>"; };
+		105ADA7F432D80EAE8C5B7DC /* KDTicketsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsRouter.swift; sourceTree = "<group>"; };
+		168E710BD234D239E5A37E79 /* KDRootInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootInteractorOutput.swift; sourceTree = "<group>"; };
+		1BEA730ECD4CF0736D9CD59E /* KDDatePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDDatePickerViewController.swift; sourceTree = "<group>"; };
+		251D6213641493C1C9CAD1EC /* KDSupportPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDSupportPresenter.swift; sourceTree = "<group>"; };
+		2E2D8275B582366B017CAE38 /* KDFlightsInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDFlightsInteractor.swift; sourceTree = "<group>"; };
+		30044C607667BC03A2A1EBD2 /* KDDatePickerRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDDatePickerRouterInput.swift; sourceTree = "<group>"; };
+		3A200E9E389E08D3F0C6D3B0 /* KDCitiesInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesInteractorInput.swift; sourceTree = "<group>"; };
+		3D280FB89FDD2C667980915C /* KDRootPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootPresenter.swift; sourceTree = "<group>"; };
+		3FC693AA3D544DBA0CCA10D7 /* KDDatePickerViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDDatePickerViewOutput.swift; sourceTree = "<group>"; };
+		40B8A4D3A7AB599699F95C6F /* KDRegistrationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationRouter.swift; sourceTree = "<group>"; };
+		4333A13DD4D993E451796AB8 /* KDCitiesRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesRouterInput.swift; sourceTree = "<group>"; };
+		44D9C41466C0BD272FD43038 /* KDSupportInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDSupportInteractor.swift; sourceTree = "<group>"; };
+		458B50BB2C05FFED3716CE74 /* KDFlightsViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDFlightsViewOutput.swift; sourceTree = "<group>"; };
+		4C510B1EEEB70C8BA22C2F95 /* KDSupportViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDSupportViewController.swift; sourceTree = "<group>"; };
+		4EB68782567064921916739D /* KDDatePickerInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDDatePickerInteractorInput.swift; sourceTree = "<group>"; };
+		5355AF47C1A17E1B8BE6176E /* KDDatePickerInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDDatePickerInteractorOutput.swift; sourceTree = "<group>"; };
+		54F9A9FDB790AA7331E43682 /* KDDatePickerAssemblyContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDDatePickerAssemblyContainer.swift; sourceTree = "<group>"; };
+		55050393E86EEF84275F5B8E /* KDWeatherListPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDWeatherListPresenter.swift; sourceTree = "<group>"; };
+		5923323CCFF877A23E2E8F02 /* KDTicketsInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsInteractorOutput.swift; sourceTree = "<group>"; };
+		5AD0AE318DE6C98FA22593D8 /* KDRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootViewController.swift; sourceTree = "<group>"; };
+		5DEB23DE66096E3397BA5A62 /* KDRootInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootInteractor.swift; sourceTree = "<group>"; };
+		5DF2C68F86B1BDA8A0549065 /* Pods-UTair.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTair.release.xcconfig"; path = "Pods/Target Support Files/Pods-UTair/Pods-UTair.release.xcconfig"; sourceTree = "<group>"; };
+		617694DCD498A6DAA09F6BDF /* KDCitiesAssemblyContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesAssemblyContainer.swift; sourceTree = "<group>"; };
+		62EABCD17DA6DCAC39658D1C /* KDWeatherListAssemblyContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDWeatherListAssemblyContainer.swift; sourceTree = "<group>"; };
+		6400CA3E1A5233C77C039EAF /* KDRootModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootModuleInput.swift; sourceTree = "<group>"; };
+		64BEC5B4C7AB8C3280504B7E /* KDDatePickerRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDDatePickerRouter.swift; sourceTree = "<group>"; };
+		65DD51E756B7868531F1F9B5 /* KDFlightsModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDFlightsModuleInput.swift; sourceTree = "<group>"; };
+		6635BF42590F0CEF7153D21F /* KDRegistrationInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationInteractorOutput.swift; sourceTree = "<group>"; };
+		6EEFC7F552BB81EFCFBB74FE /* KDTicketsAssemblyContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsAssemblyContainer.swift; sourceTree = "<group>"; };
+		6FC0160F4F0D7B6DF3B75D13 /* KDWeatherListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDWeatherListViewController.swift; sourceTree = "<group>"; };
+		7003B6683E03D2DBFB54AEAD /* KDFlightsAssemblyContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDFlightsAssemblyContainer.swift; sourceTree = "<group>"; };
+		74DDCA7A8EBD509C03BA0CCB /* KDWeatherListInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDWeatherListInteractor.swift; sourceTree = "<group>"; };
+		7754FA328901D27B8F1DB9EF /* KDWeatherListViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDWeatherListViewInput.swift; sourceTree = "<group>"; };
+		7A63580F4CBA0E7BF0D81B9B /* KDDatePickerPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDDatePickerPresenter.swift; sourceTree = "<group>"; };
+		7B9AC960696007435D6CCA7B /* KDRegistrationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationViewController.swift; sourceTree = "<group>"; };
+		7BAC44C7E066C617B63293DB /* KDRootInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootInteractorInput.swift; sourceTree = "<group>"; };
+		831284F7382FFBA489DC9802 /* KDSupportRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDSupportRouter.swift; sourceTree = "<group>"; };
+		837D9E8CF4E007D4A554BF8D /* KDDatePickerInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDDatePickerInteractor.swift; sourceTree = "<group>"; };
+		858F2241D0B91C69CD5C959C /* KDCitiesInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesInteractor.swift; sourceTree = "<group>"; };
+		85D5E698AB3A10AB62D602C7 /* KDCitiesPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesPresenter.swift; sourceTree = "<group>"; };
+		893C3025A1B90B82E60891FA /* KDRegistrationViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationViewInput.swift; sourceTree = "<group>"; };
+		8C068AB99BAAA9922851F2F1 /* KDTicketsViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsViewOutput.swift; sourceTree = "<group>"; };
+		8CAF57A11EF41C9800CB9F0D /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		8CAF57A21EF41C9800CB9F0D /* PersonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonCell.xib; sourceTree = "<group>"; };
+		8CAF57A51EF41D0700CB9F0D /* PersonComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonComponent.swift; sourceTree = "<group>"; };
+		8CAF57A71EF41D1300CB9F0D /* PersonComponent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonComponent.xib; sourceTree = "<group>"; };
+		8CAF57A91EF42AFA00CB9F0D /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		8CAF57AC1EF42BD300CB9F0D /* WeatherResponseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherResponseObject.swift; sourceTree = "<group>"; };
+		8CAF57AE1EF42C5600CB9F0D /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		8CAF57B01EF42CCD00CB9F0D /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		8CAF57B21EF42CD500CB9F0D /* WeatherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
+		8CAF57B41EF42D9700CB9F0D /* WeatherDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDataSource.swift; sourceTree = "<group>"; };
 		8CFE4D5B1EE99AA300E07996 /* UTair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFE4D5E1EE99AA300E07996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CFE4D601EE99AA300E07996 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CFE4D631EE99AA300E07996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CFE4D651EE99AA300E07996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CFE4D681EE99AA300E07996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CFE4D6A1EE99AA300E07996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFE4D731EEA711000E07996 /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
+		8CFE4D751EEA8AE000E07996 /* ControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerExtension.swift; sourceTree = "<group>"; };
+		8CFE4D771EEAA33A00E07996 /* Popup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Popup.swift; path = Modules/Registration/Popup.swift; sourceTree = "<group>"; };
+		8CFE4D791EEAA3EE00E07996 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8CFE4D7B1EEAA44200E07996 /* Popup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Popup.xib; sourceTree = "<group>"; };
+		8CFE4D831EEAE97700E07996 /* KDSupportDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDSupportDataSource.swift; sourceTree = "<group>"; };
+		8CFE4D851EEAEAEC00E07996 /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		8CFE4D871EEAEAF600E07996 /* TextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextCell.xib; sourceTree = "<group>"; };
+		8CFE4D891EEAF13800E07996 /* NavigationStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationStyle.swift; sourceTree = "<group>"; };
+		8CFE4D8B1EEC4CE700E07996 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		8CFE4D8D1EEC60FE00E07996 /* KDNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDNavigationController.swift; sourceTree = "<group>"; };
+		8CFE4D8F1EEC66CC00E07996 /* KDButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDButton.swift; sourceTree = "<group>"; };
+		8CFE4D931EED76B800E07996 /* KDTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDTextField.swift; sourceTree = "<group>"; };
+		8CFE4D951EED775B00E07996 /* KDTextFieldContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDTextFieldContainer.swift; sourceTree = "<group>"; };
+		8CFE4D991EED7FCC00E07996 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		8CFE4D9B1EED7FD900E07996 /* RequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		8CFE4D9D1EED7FF400E07996 /* AppNetworkInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNetworkInfo.swift; sourceTree = "<group>"; };
+		8CFE4DA21EEEB44900E07996 /* CitiesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesCell.swift; sourceTree = "<group>"; };
+		8CFE4DA41EEEB48500E07996 /* CitiesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CitiesCell.xib; sourceTree = "<group>"; };
+		8CFE4DA61EEEB7D300E07996 /* KDFlightsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDFlightsDataSource.swift; sourceTree = "<group>"; };
+		8CFE4DA81EEEC49900E07996 /* DatesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatesCell.swift; sourceTree = "<group>"; };
+		8CFE4DAA1EEEC4A700E07996 /* DatesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatesCell.xib; sourceTree = "<group>"; };
+		8CFE4DAC1EEF09A900E07996 /* DateViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewComponent.swift; sourceTree = "<group>"; };
+		8CFE4DAE1EEF09BB00E07996 /* DateViewComponent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateViewComponent.xib; sourceTree = "<group>"; };
+		8CFE4DB01EEF0A9B00E07996 /* KDButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDButtonStyle.swift; sourceTree = "<group>"; };
+		8CFE4DEE1EF2B63F00E07996 /* CitiesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesService.swift; sourceTree = "<group>"; };
+		8CFE4DF21EF2B71F00E07996 /* CityResponseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityResponseObject.swift; sourceTree = "<group>"; };
+		8CFE4DF41EF2BB4E00E07996 /* CityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		8CFE4DF61EF2BEAD00E07996 /* KDCitiesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCitiesDataSource.swift; sourceTree = "<group>"; };
+		8CFE4DF81EF2C12400E07996 /* CityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		8CFE4DF91EF2C12400E07996 /* CityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityCell.xib; sourceTree = "<group>"; };
+		8CFE4DFC1EF2C45D00E07996 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		8CFE4DFE1EF2C47200E07996 /* SearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchBar.xib; sourceTree = "<group>"; };
+		8CFE4E001EF2D18900E07996 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		8DA587413868F60371ACAC1F /* KDFlightsRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDFlightsRouterInput.swift; sourceTree = "<group>"; };
+		8F22DD953F0262E1B522F39B /* KDRootRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootRouter.swift; sourceTree = "<group>"; };
+		983E8729E37D2B09AF5717BB /* KDSupportViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDSupportViewOutput.swift; sourceTree = "<group>"; };
+		A3615820BFE0CAA858410DB0 /* KDWeatherListInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDWeatherListInteractorOutput.swift; sourceTree = "<group>"; };
+		A7549CD4D5BF16AEAC65FA53 /* KDRegistrationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationPresenter.swift; sourceTree = "<group>"; };
+		A822487D58A2D79D67F078FD /* KDCitiesViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesViewInput.swift; sourceTree = "<group>"; };
+		AA3CAA95A8739A954EAAAC31 /* KDTicketsInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsInteractorInput.swift; sourceTree = "<group>"; };
+		B0326D0474470FEFFFF652A4 /* KDSupportInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDSupportInteractorOutput.swift; sourceTree = "<group>"; };
+		B1DE431E1E2F603A986BD420 /* Pods-UTair.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTair.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UTair/Pods-UTair.debug.xcconfig"; sourceTree = "<group>"; };
+		B29AB2EEDD37F7CC967CEE64 /* KDRegistrationInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationInteractorInput.swift; sourceTree = "<group>"; };
+		B2D3DA3DA886B7D759F3A4AF /* KDCitiesInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesInteractorOutput.swift; sourceTree = "<group>"; };
+		B6019C706DFA5AF45424FD08 /* KDWeatherListViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDWeatherListViewOutput.swift; sourceTree = "<group>"; };
+		B7A302CD08EBB2C2AB033FA6 /* KDDatePickerModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDDatePickerModuleInput.swift; sourceTree = "<group>"; };
+		B7C561AB5FAE446157EB338A /* KDRootViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootViewInput.swift; sourceTree = "<group>"; };
+		BD39CF3210AB67DCAC3543E9 /* KDTicketsInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsInteractor.swift; sourceTree = "<group>"; };
+		BE2AEE0A4B60C745C19254AD /* KDCitiesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesViewController.swift; sourceTree = "<group>"; };
+		C0E0BEBB3571E07ACC05F6A3 /* KDFlightsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDFlightsPresenter.swift; sourceTree = "<group>"; };
+		C239683B795992ED8910DA03 /* KDFlightsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDFlightsRouter.swift; sourceTree = "<group>"; };
+		C345179AFB1C24BDBE20072D /* KDTicketsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsViewController.swift; sourceTree = "<group>"; };
+		C3DF8FE269A6AAF314B06D1C /* KDFlightsInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDFlightsInteractorInput.swift; sourceTree = "<group>"; };
+		C7C834ABBB410C3344CC17DC /* KDWeatherListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDWeatherListRouter.swift; sourceTree = "<group>"; };
+		CF0BC5E70B07F6B631671515 /* KDSupportModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDSupportModuleInput.swift; sourceTree = "<group>"; };
+		D083D580E24524E2DDA7FDAD /* KDRegistrationInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationInteractor.swift; sourceTree = "<group>"; };
+		D1414AC8E6152B1E040B0B38 /* KDRootRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootRouterInput.swift; sourceTree = "<group>"; };
+		D1C511662D9E02BA18244FC2 /* KDRegistrationAssemblyContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationAssemblyContainer.swift; sourceTree = "<group>"; };
+		D3A1DBAF882267A1D9050074 /* KDDatePickerViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDDatePickerViewInput.swift; sourceTree = "<group>"; };
+		DA4CA2ADF22A45CE1C964002 /* KDWeatherListInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDWeatherListInteractorInput.swift; sourceTree = "<group>"; };
+		DB0F1939BFFA31F777C71EA4 /* KDSupportViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDSupportViewInput.swift; sourceTree = "<group>"; };
+		DD42E1F9F19368CCC9CDDB3F /* KDCitiesModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesModuleInput.swift; sourceTree = "<group>"; };
+		E08A44E3DED4EF1B9EC7F7FF /* KDSupportInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDSupportInteractorInput.swift; sourceTree = "<group>"; };
+		E43AFFF6A7A1A488587618C4 /* KDRootViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootViewOutput.swift; sourceTree = "<group>"; };
+		E88B9B3D2B9EA9C7EFC23D29 /* KDFlightsInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDFlightsInteractorOutput.swift; sourceTree = "<group>"; };
+		EA93557F43C214573A7D63A1 /* KDRootAssemblyContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootAssemblyContainer.swift; sourceTree = "<group>"; };
+		F09D8CE246F6362C94E1F18D /* KDWeatherListRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDWeatherListRouterInput.swift; sourceTree = "<group>"; };
+		F2E57C741C7C54CDE89559B0 /* KDTicketsViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsViewInput.swift; sourceTree = "<group>"; };
+		F3AA54ED2768ADDB6DB6E663 /* KDRegistrationModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationModuleInput.swift; sourceTree = "<group>"; };
+		F3EDF0E388E250EF7B67C2F7 /* KDTicketsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsPresenter.swift; sourceTree = "<group>"; };
+		F52A17E5181C7FC0C3D0E995 /* KDCitiesRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesRouter.swift; sourceTree = "<group>"; };
+		F8E5A566C4BFF51B81C505DB /* KDRegistrationRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationRouterInput.swift; sourceTree = "<group>"; };
+		F910227435A1E7ABA327543F /* KDRegistrationViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationViewOutput.swift; sourceTree = "<group>"; };
+		FAB1B0E777458FEF4EFB7360 /* KDSupportRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDSupportRouterInput.swift; sourceTree = "<group>"; };
+		FB034C0593CB7941FCCD34F4 /* Pods_UTair.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UTair.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCF72E60B2312C078935E9A /* KDCitiesViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesViewOutput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +295,312 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEAC42F66D15F48EB89A81BB /* Pods_UTair.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03BAE8145CC512A97A5840F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F1BE6DC4A20775D22A8B37D /* KDFlightsViewInput.swift */,
+				458B50BB2C05FFED3716CE74 /* KDFlightsViewOutput.swift */,
+				01788766D167B7C976BB7BAD /* KDFlightsViewController.swift */,
+				8CFE4DA61EEEB7D300E07996 /* KDFlightsDataSource.swift */,
+				8CAF57A01EF3F3CE00CB9F0D /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		051E4D4FD7712F413BE82F61 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				00FF9AD14D11815732142B09 /* KDWeatherListModuleInput.swift */,
+				55050393E86EEF84275F5B8E /* KDWeatherListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		057CFD09BC4BD71274E95971 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C3DF8FE269A6AAF314B06D1C /* KDFlightsInteractorInput.swift */,
+				E88B9B3D2B9EA9C7EFC23D29 /* KDFlightsInteractorOutput.swift */,
+				2E2D8275B582366B017CAE38 /* KDFlightsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		06C588B7EBD67CF079385C4D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				02E6B5ABE816C5348620DA46 /* KDSupportAssemblyContainer.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		099E1BD405969EC36D817727 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0AAF3D37B9EB6C4C710F5C00 /* KDTicketsModuleInput.swift */,
+				F3EDF0E388E250EF7B67C2F7 /* KDTicketsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0A922FAB8528B27A75F11072 /* Flights */ = {
+			isa = PBXGroup;
+			children = (
+				13CF8F80D4A66C4B061A4976 /* Assembly */,
+				03BAE8145CC512A97A5840F9 /* View */,
+				38DDFE5C34AAC69AB1FD10CF /* Presenter */,
+				057CFD09BC4BD71274E95971 /* Interactor */,
+				54FC8D70BE2EC014F9B9A960 /* Router */,
+			);
+			path = Flights;
+			sourceTree = "<group>";
+		};
+		0E5A379894DC5B746B1769E6 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				39526824650C846757C2E7C4 /* Assembly */,
+				A841DD8F49E7BDB04B8CCCE3 /* View */,
+				7F9962D9379C6338691419E9 /* Presenter */,
+				A7E5D86297CCE73BBE62C748 /* Interactor */,
+				BDF192A4D45E60DA3399619C /* Router */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		13CF8F80D4A66C4B061A4976 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				7003B6683E03D2DBFB54AEAD /* KDFlightsAssemblyContainer.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		164CA9B1FC4E254DFBB48FC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1DE431E1E2F603A986BD420 /* Pods-UTair.debug.xcconfig */,
+				5DF2C68F86B1BDA8A0549065 /* Pods-UTair.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1DF4E22EF39C5C4B2D3C6674 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F8E5A566C4BFF51B81C505DB /* KDRegistrationRouterInput.swift */,
+				40B8A4D3A7AB599699F95C6F /* KDRegistrationRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1E3C9A4E5256DE0F6A1666AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				893C3025A1B90B82E60891FA /* KDRegistrationViewInput.swift */,
+				F910227435A1E7ABA327543F /* KDRegistrationViewOutput.swift */,
+				7B9AC960696007435D6CCA7B /* KDRegistrationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22E33D91903A64AAD5ABF317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB034C0593CB7941FCCD34F4 /* Pods_UTair.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A6F628922CED6B83F44EEFF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				4EB68782567064921916739D /* KDDatePickerInteractorInput.swift */,
+				5355AF47C1A17E1B8BE6176E /* KDDatePickerInteractorOutput.swift */,
+				837D9E8CF4E007D4A554BF8D /* KDDatePickerInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2C53F7C636E288641092F05D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				043B38DA44826D33FD38A673 /* KDTicketsRouterInput.swift */,
+				105ADA7F432D80EAE8C5B7DC /* KDTicketsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2EB72EB07A39723845149965 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DA4CA2ADF22A45CE1C964002 /* KDWeatherListInteractorInput.swift */,
+				A3615820BFE0CAA858410DB0 /* KDWeatherListInteractorOutput.swift */,
+				74DDCA7A8EBD509C03BA0CCB /* KDWeatherListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		38DDFE5C34AAC69AB1FD10CF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				65DD51E756B7868531F1F9B5 /* KDFlightsModuleInput.swift */,
+				C0E0BEBB3571E07ACC05F6A3 /* KDFlightsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		39526824650C846757C2E7C4 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				EA93557F43C214573A7D63A1 /* KDRootAssemblyContainer.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		48C872B9694AB7E54E4FF6DD /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				54F9A9FDB790AA7331E43682 /* KDDatePickerAssemblyContainer.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		496802161C1FB2EABFD8DCFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB0F1939BFFA31F777C71EA4 /* KDSupportViewInput.swift */,
+				983E8729E37D2B09AF5717BB /* KDSupportViewOutput.swift */,
+				4C510B1EEEB70C8BA22C2F95 /* KDSupportViewController.swift */,
+				8CFE4D831EEAE97700E07996 /* KDSupportDataSource.swift */,
+				8CFE4D851EEAEAEC00E07996 /* TextCell.swift */,
+				8CFE4D871EEAEAF600E07996 /* TextCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		501795DF36B5870C97C6749A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AA3CAA95A8739A954EAAAC31 /* KDTicketsInteractorInput.swift */,
+				5923323CCFF877A23E2E8F02 /* KDTicketsInteractorOutput.swift */,
+				BD39CF3210AB67DCAC3543E9 /* KDTicketsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		54FC8D70BE2EC014F9B9A960 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8DA587413868F60371ACAC1F /* KDFlightsRouterInput.swift */,
+				C239683B795992ED8910DA03 /* KDFlightsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		6300F9F32514CE5872BC9418 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B29AB2EEDD37F7CC967CEE64 /* KDRegistrationInteractorInput.swift */,
+				6635BF42590F0CEF7153D21F /* KDRegistrationInteractorOutput.swift */,
+				D083D580E24524E2DDA7FDAD /* KDRegistrationInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		63270491C17CD77E7743F3CE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3A200E9E389E08D3F0C6D3B0 /* KDCitiesInteractorInput.swift */,
+				B2D3DA3DA886B7D759F3A4AF /* KDCitiesInteractorOutput.swift */,
+				858F2241D0B91C69CD5C959C /* KDCitiesInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		70277B3669E7F981E6E95225 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4333A13DD4D993E451796AB8 /* KDCitiesRouterInput.swift */,
+				F52A17E5181C7FC0C3D0E995 /* KDCitiesRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		77A8EDD8425951804362E1B0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FAB1B0E777458FEF4EFB7360 /* KDSupportRouterInput.swift */,
+				831284F7382FFBA489DC9802 /* KDSupportRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7F9962D9379C6338691419E9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6400CA3E1A5233C77C039EAF /* KDRootModuleInput.swift */,
+				3D280FB89FDD2C667980915C /* KDRootPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8826885572A758FC0913047A /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				617694DCD498A6DAA09F6BDF /* KDCitiesAssemblyContainer.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		8CAF57A01EF3F3CE00CB9F0D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF57A51EF41D0700CB9F0D /* PersonComponent.swift */,
+				8CAF57A71EF41D1300CB9F0D /* PersonComponent.xib */,
+				8CAF57A11EF41C9800CB9F0D /* PersonCell.swift */,
+				8CAF57A21EF41C9800CB9F0D /* PersonCell.xib */,
+				8CFE4DA21EEEB44900E07996 /* CitiesCell.swift */,
+				8CFE4DA41EEEB48500E07996 /* CitiesCell.xib */,
+				8CFE4DA81EEEC49900E07996 /* DatesCell.swift */,
+				8CFE4DAA1EEEC4A700E07996 /* DatesCell.xib */,
+				8CFE4DAC1EEF09A900E07996 /* DateViewComponent.swift */,
+				8CFE4DAE1EEF09BB00E07996 /* DateViewComponent.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		8CAF57AB1EF42B0200CB9F0D /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF57A91EF42AFA00CB9F0D /* WeatherService.swift */,
+				8CAF57AC1EF42BD300CB9F0D /* WeatherResponseObject.swift */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		8CAF57B61EF6E39C00CB9F0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CFE4DF41EF2BB4E00E07996 /* CityModel.swift */,
+				8CAF57AE1EF42C5600CB9F0D /* WeatherModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		8CFE4D521EE99AA300E07996 = {
 			isa = PBXGroup;
 			children = (
 				8CFE4D5D1EE99AA300E07996 /* UTair */,
 				8CFE4D5C1EE99AA300E07996 /* Products */,
+				164CA9B1FC4E254DFBB48FC7 /* Pods */,
+				22E33D91903A64AAD5ABF317 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +616,341 @@
 			isa = PBXGroup;
 			children = (
 				8CFE4D5E1EE99AA300E07996 /* AppDelegate.swift */,
-				8CFE4D601EE99AA300E07996 /* ViewController.swift */,
+				8CFE4D731EEA711000E07996 /* ApplicationAssembly.swift */,
 				8CFE4D621EE99AA300E07996 /* Main.storyboard */,
 				8CFE4D651EE99AA300E07996 /* Assets.xcassets */,
 				8CFE4D671EE99AA300E07996 /* LaunchScreen.storyboard */,
 				8CFE4D6A1EE99AA300E07996 /* Info.plist */,
+				9882D625FBEDA006953EE06F /* Modules */,
+				8CFE4D921EED767500E07996 /* Extensions */,
+				8CFE4D911EED766500E07996 /* Components */,
+				8CFE4DA11EED807A00E07996 /* Styles */,
+				8CFE4DA01EED806000E07996 /* Network */,
+				8CFE4D9F1EED805B00E07996 /* Common */,
 			);
 			path = UTair;
+			sourceTree = "<group>";
+		};
+		8CFE4D911EED766500E07996 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8CFE4D771EEAA33A00E07996 /* Popup.swift */,
+				8CFE4D7B1EEAA44200E07996 /* Popup.xib */,
+				8CFE4D8F1EEC66CC00E07996 /* KDButton.swift */,
+				8CFE4D8D1EEC60FE00E07996 /* KDNavigationController.swift */,
+				8CFE4D931EED76B800E07996 /* KDTextField.swift */,
+				8CFE4D951EED775B00E07996 /* KDTextFieldContainer.swift */,
+				8CFE4DFC1EF2C45D00E07996 /* SearchBar.swift */,
+				8CFE4DFE1EF2C47200E07996 /* SearchBar.xib */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		8CFE4D921EED767500E07996 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CFE4D751EEA8AE000E07996 /* ControllerExtension.swift */,
+				8CFE4D8B1EEC4CE700E07996 /* ColorExtension.swift */,
+				8CFE4E001EF2D18900E07996 /* StringExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8CFE4D9F1EED805B00E07996 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8CFE4D991EED7FCC00E07996 /* Queue.swift */,
+				8CFE4D791EEAA3EE00E07996 /* Constants.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		8CFE4DA01EED806000E07996 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8CFE4D9B1EED7FD900E07996 /* RequestHandler.swift */,
+				8CFE4D9D1EED7FF400E07996 /* AppNetworkInfo.swift */,
+				8CFE4DF11EF2B65700E07996 /* Services */,
+				8CAF57B61EF6E39C00CB9F0D /* Models */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		8CFE4DA11EED807A00E07996 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				8CFE4D891EEAF13800E07996 /* NavigationStyle.swift */,
+				8CFE4DB01EEF0A9B00E07996 /* KDButtonStyle.swift */,
+			);
+			name = Styles;
+			sourceTree = "<group>";
+		};
+		8CFE4DF01EF2B65300E07996 /* Cities */ = {
+			isa = PBXGroup;
+			children = (
+				8CFE4DEE1EF2B63F00E07996 /* CitiesService.swift */,
+				8CFE4DF21EF2B71F00E07996 /* CityResponseObject.swift */,
+			);
+			name = Cities;
+			sourceTree = "<group>";
+		};
+		8CFE4DF11EF2B65700E07996 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8CFE4DF01EF2B65300E07996 /* Cities */,
+				8CAF57AB1EF42B0200CB9F0D /* Weather */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		903E31C788E9A0D40050FB91 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DD42E1F9F19368CCC9CDDB3F /* KDCitiesModuleInput.swift */,
+				85D5E698AB3A10AB62D602C7 /* KDCitiesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		91A23F8B491924E5377580EF /* Cities */ = {
+			isa = PBXGroup;
+			children = (
+				8826885572A758FC0913047A /* Assembly */,
+				D71289554FF365C2A66F21DC /* View */,
+				903E31C788E9A0D40050FB91 /* Presenter */,
+				63270491C17CD77E7743F3CE /* Interactor */,
+				70277B3669E7F981E6E95225 /* Router */,
+			);
+			path = Cities;
+			sourceTree = "<group>";
+		};
+		9882D625FBEDA006953EE06F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0E5A379894DC5B746B1769E6 /* Root */,
+				CBCD1B752E2289FE0D25A56F /* Tickets */,
+				0A922FAB8528B27A75F11072 /* Flights */,
+				DEF15B98EA3D7C6223A06B31 /* Support */,
+				9B9755FE10C4A9D5B59F211E /* Registration */,
+				91A23F8B491924E5377580EF /* Cities */,
+				9A115FFA97B98D129BE90782 /* DatePicker */,
+				DC5877AE57FF736829EDC8DF /* WeatherList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		98D034A4E0CB3BA13BC68377 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				6EEFC7F552BB81EFCFBB74FE /* KDTicketsAssemblyContainer.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		9A115FFA97B98D129BE90782 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				48C872B9694AB7E54E4FF6DD /* Assembly */,
+				F5F76EEDA69A2304E77F5458 /* View */,
+				EF9A623D7A3084097F6094C6 /* Presenter */,
+				2A6F628922CED6B83F44EEFF /* Interactor */,
+				B0637CE41740DC45FA2BBAA7 /* Router */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		9B9755FE10C4A9D5B59F211E /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				A2E7A3F5875B38C223E2A118 /* Assembly */,
+				1E3C9A4E5256DE0F6A1666AA /* View */,
+				CE6835627758ECCFB37C64BE /* Presenter */,
+				6300F9F32514CE5872BC9418 /* Interactor */,
+				1DF4E22EF39C5C4B2D3C6674 /* Router */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		A2E7A3F5875B38C223E2A118 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				D1C511662D9E02BA18244FC2 /* KDRegistrationAssemblyContainer.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		A6C4ACD04DBE7C6FE936CD36 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CF0BC5E70B07F6B631671515 /* KDSupportModuleInput.swift */,
+				251D6213641493C1C9CAD1EC /* KDSupportPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A7E5D86297CCE73BBE62C748 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7BAC44C7E066C617B63293DB /* KDRootInteractorInput.swift */,
+				168E710BD234D239E5A37E79 /* KDRootInteractorOutput.swift */,
+				5DEB23DE66096E3397BA5A62 /* KDRootInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A841DD8F49E7BDB04B8CCCE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B7C561AB5FAE446157EB338A /* KDRootViewInput.swift */,
+				E43AFFF6A7A1A488587618C4 /* KDRootViewOutput.swift */,
+				5AD0AE318DE6C98FA22593D8 /* KDRootViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0637CE41740DC45FA2BBAA7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				30044C607667BC03A2A1EBD2 /* KDDatePickerRouterInput.swift */,
+				64BEC5B4C7AB8C3280504B7E /* KDDatePickerRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		BDF192A4D45E60DA3399619C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D1414AC8E6152B1E040B0B38 /* KDRootRouterInput.swift */,
+				8F22DD953F0262E1B522F39B /* KDRootRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CBCD1B752E2289FE0D25A56F /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				98D034A4E0CB3BA13BC68377 /* Assembly */,
+				D652BD3EBF2CC105F3D9C456 /* View */,
+				099E1BD405969EC36D817727 /* Presenter */,
+				501795DF36B5870C97C6749A /* Interactor */,
+				2C53F7C636E288641092F05D /* Router */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		CE6835627758ECCFB37C64BE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA54ED2768ADDB6DB6E663 /* KDRegistrationModuleInput.swift */,
+				A7549CD4D5BF16AEAC65FA53 /* KDRegistrationPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D652BD3EBF2CC105F3D9C456 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2E57C741C7C54CDE89559B0 /* KDTicketsViewInput.swift */,
+				8C068AB99BAAA9922851F2F1 /* KDTicketsViewOutput.swift */,
+				C345179AFB1C24BDBE20072D /* KDTicketsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D71289554FF365C2A66F21DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A822487D58A2D79D67F078FD /* KDCitiesViewInput.swift */,
+				FCCF72E60B2312C078935E9A /* KDCitiesViewOutput.swift */,
+				BE2AEE0A4B60C745C19254AD /* KDCitiesViewController.swift */,
+				8CFE4DF61EF2BEAD00E07996 /* KDCitiesDataSource.swift */,
+				8CFE4DF81EF2C12400E07996 /* CityCell.swift */,
+				8CFE4DF91EF2C12400E07996 /* CityCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC5877AE57FF736829EDC8DF /* WeatherList */ = {
+			isa = PBXGroup;
+			children = (
+				F644529788036D695ACFEF9C /* Assembly */,
+				E25AC87AAFDC0CB8638E7AD4 /* View */,
+				051E4D4FD7712F413BE82F61 /* Presenter */,
+				2EB72EB07A39723845149965 /* Interactor */,
+				FFAF85AF467A1EF7485759E0 /* Router */,
+			);
+			path = WeatherList;
+			sourceTree = "<group>";
+		};
+		DEF15B98EA3D7C6223A06B31 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				06C588B7EBD67CF079385C4D /* Assembly */,
+				496802161C1FB2EABFD8DCFA /* View */,
+				A6C4ACD04DBE7C6FE936CD36 /* Presenter */,
+				E3E12233E85D50BDB99525FE /* Interactor */,
+				77A8EDD8425951804362E1B0 /* Router */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		E25AC87AAFDC0CB8638E7AD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7754FA328901D27B8F1DB9EF /* KDWeatherListViewInput.swift */,
+				B6019C706DFA5AF45424FD08 /* KDWeatherListViewOutput.swift */,
+				6FC0160F4F0D7B6DF3B75D13 /* KDWeatherListViewController.swift */,
+				8CAF57B41EF42D9700CB9F0D /* WeatherDataSource.swift */,
+				8CAF57B01EF42CCD00CB9F0D /* WeatherCell.swift */,
+				8CAF57B21EF42CD500CB9F0D /* WeatherCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3E12233E85D50BDB99525FE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E08A44E3DED4EF1B9EC7F7FF /* KDSupportInteractorInput.swift */,
+				B0326D0474470FEFFFF652A4 /* KDSupportInteractorOutput.swift */,
+				44D9C41466C0BD272FD43038 /* KDSupportInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EF9A623D7A3084097F6094C6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B7A302CD08EBB2C2AB033FA6 /* KDDatePickerModuleInput.swift */,
+				7A63580F4CBA0E7BF0D81B9B /* KDDatePickerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F5F76EEDA69A2304E77F5458 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3A1DBAF882267A1D9050074 /* KDDatePickerViewInput.swift */,
+				3FC693AA3D544DBA0CCA10D7 /* KDDatePickerViewOutput.swift */,
+				1BEA730ECD4CF0736D9CD59E /* KDDatePickerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F644529788036D695ACFEF9C /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				62EABCD17DA6DCAC39658D1C /* KDWeatherListAssemblyContainer.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		FFAF85AF467A1EF7485759E0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F09D8CE246F6362C94E1F18D /* KDWeatherListRouterInput.swift */,
+				C7C834ABBB410C3344CC17DC /* KDWeatherListRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +960,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CFE4D6D1EE99AA300E07996 /* Build configuration list for PBXNativeTarget "UTair" */;
 			buildPhases = (
+				461E431A00394F65DFD470A9 /* [CP] Check Pods Manifest.lock */,
 				8CFE4D571EE99AA300E07996 /* Sources */,
 				8CFE4D581EE99AA300E07996 /* Frameworks */,
 				8CFE4D591EE99AA300E07996 /* Resources */,
+				81715D284263D6EC156B684F /* [CP] Embed Pods Frameworks */,
+				14228E5C9E731C9150CCF4EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +988,7 @@
 				TargetAttributes = {
 					8CFE4D5A1EE99AA300E07996 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = TWW7UPTWB8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,19 +1018,198 @@
 			files = (
 				8CFE4D691EE99AA300E07996 /* LaunchScreen.storyboard in Resources */,
 				8CFE4D661EE99AA300E07996 /* Assets.xcassets in Resources */,
+				8CFE4DAF1EEF09BB00E07996 /* DateViewComponent.xib in Resources */,
+				8CAF57B31EF42CD500CB9F0D /* WeatherCell.xib in Resources */,
+				8CFE4DAB1EEEC4A700E07996 /* DatesCell.xib in Resources */,
+				8CFE4D881EEAEAF600E07996 /* TextCell.xib in Resources */,
+				8CFE4DFF1EF2C47200E07996 /* SearchBar.xib in Resources */,
+				8CFE4D7C1EEAA44200E07996 /* Popup.xib in Resources */,
+				8CFE4DA51EEEB48500E07996 /* CitiesCell.xib in Resources */,
 				8CFE4D641EE99AA300E07996 /* Main.storyboard in Resources */,
+				8CFE4DFB1EF2C12400E07996 /* CityCell.xib in Resources */,
+				8CAF57A81EF41D1300CB9F0D /* PersonComponent.xib in Resources */,
+				8CAF57A41EF41C9800CB9F0D /* PersonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14228E5C9E731C9150CCF4EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UTair/Pods-UTair-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		461E431A00394F65DFD470A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81715D284263D6EC156B684F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UTair/Pods-UTair-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8CFE4D571EE99AA300E07996 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CFE4D611EE99AA300E07996 /* ViewController.swift in Sources */,
 				8CFE4D5F1EE99AA300E07996 /* AppDelegate.swift in Sources */,
+				36ACB45196672421D8BD9923 /* KDRootAssemblyContainer.swift in Sources */,
+				2129298BC3593862880B6A97 /* KDRootViewInput.swift in Sources */,
+				6142222FABE1F4D81B5A9A22 /* KDRootViewOutput.swift in Sources */,
+				8298ED0628B71C8234AC4209 /* KDRootViewController.swift in Sources */,
+				8CFE4D9E1EED7FF400E07996 /* AppNetworkInfo.swift in Sources */,
+				3CB219F5166D484FD8D9C9D6 /* KDRootModuleInput.swift in Sources */,
+				7A178D8A9F5337FEB64BCA36 /* KDRootPresenter.swift in Sources */,
+				DE46515BDB26139A5AD0AF1A /* KDRootInteractorInput.swift in Sources */,
+				5FDAABF1158F0B55FC585752 /* KDRootInteractorOutput.swift in Sources */,
+				8CFE4DA91EEEC49900E07996 /* DatesCell.swift in Sources */,
+				8CFE4D761EEA8AE000E07996 /* ControllerExtension.swift in Sources */,
+				F77BCCD29B848AE7A4F1E4EF /* KDRootInteractor.swift in Sources */,
+				8CFE4DF31EF2B71F00E07996 /* CityResponseObject.swift in Sources */,
+				8CFE4D941EED76B800E07996 /* KDTextField.swift in Sources */,
+				D9E1F5C4B4499CAD9AA33B6E /* KDRootRouterInput.swift in Sources */,
+				A4D6515236291DE26BEEED5C /* KDRootRouter.swift in Sources */,
+				8CFE4D9A1EED7FCC00E07996 /* Queue.swift in Sources */,
+				4C4F521649CC97A19C662D97 /* KDTicketsAssemblyContainer.swift in Sources */,
+				E8889D170865C0A6F72E4789 /* KDTicketsViewInput.swift in Sources */,
+				8CFE4DB11EEF0A9B00E07996 /* KDButtonStyle.swift in Sources */,
+				8CFE4DA71EEEB7D300E07996 /* KDFlightsDataSource.swift in Sources */,
+				8CAF57A31EF41C9800CB9F0D /* PersonCell.swift in Sources */,
+				0B1FCF0FC90A4D76E73DC465 /* KDTicketsViewOutput.swift in Sources */,
+				8CFE4D8A1EEAF13800E07996 /* NavigationStyle.swift in Sources */,
+				8CFE4D961EED775B00E07996 /* KDTextFieldContainer.swift in Sources */,
+				C250BC61E70C6586C36FF1D6 /* KDTicketsViewController.swift in Sources */,
+				0745822A74EE964218EB24CD /* KDTicketsModuleInput.swift in Sources */,
+				A7EA4E1DBCCE42D632BCB513 /* KDTicketsPresenter.swift in Sources */,
+				8CAF57B51EF42D9700CB9F0D /* WeatherDataSource.swift in Sources */,
+				AC028A0CF7CAAA9BB2AEE98F /* KDTicketsInteractorInput.swift in Sources */,
+				185761017101E434979E95A1 /* KDTicketsInteractorOutput.swift in Sources */,
+				70C70E8C7790C9BDE58FEC87 /* KDTicketsInteractor.swift in Sources */,
+				8CAF57AF1EF42C5600CB9F0D /* WeatherModel.swift in Sources */,
+				4DC31E0498DD35C6D1755B4D /* KDTicketsRouterInput.swift in Sources */,
+				DCE8587F4A143825C6F3A12A /* KDTicketsRouter.swift in Sources */,
+				8CFE4D9C1EED7FD900E07996 /* RequestHandler.swift in Sources */,
+				8CFE4D841EEAE97700E07996 /* KDSupportDataSource.swift in Sources */,
+				C73ECECF536A32530E9F4E42 /* KDFlightsAssemblyContainer.swift in Sources */,
+				8CFE4D8E1EEC60FE00E07996 /* KDNavigationController.swift in Sources */,
+				EC56AD87287EE06F7C1986B8 /* KDFlightsViewInput.swift in Sources */,
+				8CFE4D741EEA711000E07996 /* ApplicationAssembly.swift in Sources */,
+				8CFE4DAD1EEF09A900E07996 /* DateViewComponent.swift in Sources */,
+				BE9981A242F23F88D04EA58B /* KDFlightsViewOutput.swift in Sources */,
+				B784366CE0D2E52D33D00ADD /* KDFlightsViewController.swift in Sources */,
+				8CFE4D861EEAEAEC00E07996 /* TextCell.swift in Sources */,
+				E35E57DB8A1EFA211F94D233 /* KDFlightsModuleInput.swift in Sources */,
+				29335BFB4A821B301D61A030 /* KDFlightsPresenter.swift in Sources */,
+				F213F6362F99E05BA3697170 /* KDFlightsInteractorInput.swift in Sources */,
+				52021D51AA1F385BB4855432 /* KDFlightsInteractorOutput.swift in Sources */,
+				EF1EA49BC14291D23E6A0492 /* KDFlightsInteractor.swift in Sources */,
+				8CFE4DA31EEEB44900E07996 /* CitiesCell.swift in Sources */,
+				61145308A845A46B4E2C880F /* KDFlightsRouterInput.swift in Sources */,
+				E2CD256F2AF42C6FA28E33A6 /* KDFlightsRouter.swift in Sources */,
+				967C82A9086DA3F87E2EE4F1 /* KDSupportAssemblyContainer.swift in Sources */,
+				BC533B3F464F9A91D2AF31FD /* KDSupportViewInput.swift in Sources */,
+				7B48A9CE8D366845EDD46DD6 /* KDSupportViewOutput.swift in Sources */,
+				30E346DC9AF59FD070018E35 /* KDSupportViewController.swift in Sources */,
+				5EE24E9ECFD2E3449317744E /* KDSupportModuleInput.swift in Sources */,
+				8CFE4D7A1EEAA3EE00E07996 /* Constants.swift in Sources */,
+				8CFE4D781EEAA33A00E07996 /* Popup.swift in Sources */,
+				8CFE4DEF1EF2B63F00E07996 /* CitiesService.swift in Sources */,
+				8CFE4D901EEC66CC00E07996 /* KDButton.swift in Sources */,
+				37C96E0FEA318FE437251978 /* KDSupportPresenter.swift in Sources */,
+				AE95F0E405E60F31FB5E7C0C /* KDSupportInteractorInput.swift in Sources */,
+				D94D322E235D54DF1A265FFA /* KDSupportInteractorOutput.swift in Sources */,
+				AA212809A2F68A8138F7A2E4 /* KDSupportInteractor.swift in Sources */,
+				BD11DC1EC5C1C59EF0ACA662 /* KDSupportRouterInput.swift in Sources */,
+				38CEBAE71AC85C1B57B9E83D /* KDSupportRouter.swift in Sources */,
+				2E2E7E409BBE6E2279B40C3A /* KDRegistrationAssemblyContainer.swift in Sources */,
+				4BF2B08D77994FABF925D043 /* KDRegistrationViewInput.swift in Sources */,
+				8CAF57AA1EF42AFA00CB9F0D /* WeatherService.swift in Sources */,
+				8CFE4DF51EF2BB4E00E07996 /* CityModel.swift in Sources */,
+				110EB844DE134B0DB87DD39C /* KDRegistrationViewOutput.swift in Sources */,
+				FC7F6D6EE272205DD1BC1268 /* KDRegistrationViewController.swift in Sources */,
+				948DB1BC270F440331BB0FFE /* KDRegistrationModuleInput.swift in Sources */,
+				B1FC80BF6849631B312EB392 /* KDRegistrationPresenter.swift in Sources */,
+				BFEBAA84447ACC35BB90C718 /* KDRegistrationInteractorInput.swift in Sources */,
+				8CFE4DFD1EF2C45D00E07996 /* SearchBar.swift in Sources */,
+				04DE6972C9999F98F267C304 /* KDRegistrationInteractorOutput.swift in Sources */,
+				934FD940A21BB710E4B4ACFD /* KDRegistrationInteractor.swift in Sources */,
+				9619353C4846491CA60E4959 /* KDRegistrationRouterInput.swift in Sources */,
+				8CFE4DF71EF2BEAD00E07996 /* KDCitiesDataSource.swift in Sources */,
+				BD7CD0D73BC8CF567249714C /* KDRegistrationRouter.swift in Sources */,
+				8CFE4D8C1EEC4CE700E07996 /* ColorExtension.swift in Sources */,
+				610C1457B86543F9B4A82B90 /* KDCitiesAssemblyContainer.swift in Sources */,
+				A0CB161F11D00E387ACABCF0 /* KDCitiesViewInput.swift in Sources */,
+				28DA158080F31A44EDA0B463 /* KDCitiesViewOutput.swift in Sources */,
+				29E0F0757C1DE01789C7DC75 /* KDCitiesViewController.swift in Sources */,
+				DB2181B71C74D08834D71DD1 /* KDCitiesModuleInput.swift in Sources */,
+				AD3FCF45A91E13CBB28785D1 /* KDCitiesPresenter.swift in Sources */,
+				8CFE4DFA1EF2C12400E07996 /* CityCell.swift in Sources */,
+				107D31273F89ECC60CAC70FB /* KDCitiesInteractorInput.swift in Sources */,
+				8CAF57B11EF42CCD00CB9F0D /* WeatherCell.swift in Sources */,
+				E5C013FCB9E0E8760D2D9162 /* KDCitiesInteractorOutput.swift in Sources */,
+				9B2E8BEE59746ACE748499D6 /* KDCitiesInteractor.swift in Sources */,
+				8CFE4E011EF2D18900E07996 /* StringExtension.swift in Sources */,
+				8CAF57A61EF41D0700CB9F0D /* PersonComponent.swift in Sources */,
+				2B79150A6108E6AC02A8A4B7 /* KDCitiesRouterInput.swift in Sources */,
+				306EA9D20F28BCC58630388E /* KDCitiesRouter.swift in Sources */,
+				FEFF431D8D08B1CE2AFD564D /* KDDatePickerAssemblyContainer.swift in Sources */,
+				8EDE064C00F117CF8E6E2ECF /* KDDatePickerViewInput.swift in Sources */,
+				696CEA95DE5AB30F77CB063B /* KDDatePickerViewOutput.swift in Sources */,
+				04BB0EDB95940A368301FDB4 /* KDDatePickerViewController.swift in Sources */,
+				1770E3F1ACA2DA9BA3BBA3FA /* KDDatePickerModuleInput.swift in Sources */,
+				E67F600F1A797EE2BD204C79 /* KDDatePickerPresenter.swift in Sources */,
+				941C285B8ED212E6F24EA645 /* KDDatePickerInteractorInput.swift in Sources */,
+				EE3378707944C11193134E53 /* KDDatePickerInteractorOutput.swift in Sources */,
+				8774B004FBB5C189DDFD1937 /* KDDatePickerInteractor.swift in Sources */,
+				4B8E43AECB9902EF18144182 /* KDDatePickerRouterInput.swift in Sources */,
+				DBCA99A5C07CEF72624A0A73 /* KDDatePickerRouter.swift in Sources */,
+				1B6FEE319E8744EA5F542F4E /* KDWeatherListAssemblyContainer.swift in Sources */,
+				8E870862C1D4B0CC4630CC4D /* KDWeatherListViewInput.swift in Sources */,
+				655138E721CBBE0EE4C5C8F7 /* KDWeatherListViewOutput.swift in Sources */,
+				3FAB1D0F25707820959FFDE3 /* KDWeatherListViewController.swift in Sources */,
+				4812B44B0313B74F0146E206 /* KDWeatherListModuleInput.swift in Sources */,
+				3F3B6A718A23E997110E777A /* KDWeatherListPresenter.swift in Sources */,
+				A54A83D59227CC303D606B8F /* KDWeatherListInteractorInput.swift in Sources */,
+				DADACA570B77A20FA9093430 /* KDWeatherListInteractorOutput.swift in Sources */,
+				8CAF57AD1EF42BD300CB9F0D /* WeatherResponseObject.swift in Sources */,
+				F9D31EE3B7214B6F86D061A2 /* KDWeatherListInteractor.swift in Sources */,
+				98C87916D913ACDA48E945AF /* KDWeatherListRouterInput.swift in Sources */,
+				44D3E2A46C6274377D4CD3D3 /* KDWeatherListRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +1330,12 @@
 		};
 		8CFE4D6E1EE99AA300E07996 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1DE431E1E2F603A986BD420 /* Pods-UTair.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TWW7UPTWB8;
 				INFOPLIST_FILE = UTair/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KD.UTair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +1345,12 @@
 		};
 		8CFE4D6F1EE99AA300E07996 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF2C68F86B1BDA8A0549065 /* Pods-UTair.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TWW7UPTWB8;
 				INFOPLIST_FILE = UTair/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KD.UTair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +1377,7 @@
 				8CFE4D6F1EE99AA300E07996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

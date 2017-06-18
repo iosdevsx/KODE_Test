@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CitiesCell" customModule="UTair" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xsq-Bm-NP4">
+                    <rect key="frame" x="45" y="75" width="262" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="gmJ-nR-5eN"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40N-1g-eaB">
+                    <rect key="frame" x="307" y="51" width="48" height="48"/>
+                    <state key="normal" image="Rectangle"/>
+                    <connections>
+                        <action selector="actionButtonTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="BGI-vb-bgY"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oval" translatesAutoresizingMaskIntoConstraints="NO" id="iZY-W2-HnL">
+                    <rect key="frame" x="13" y="37.5" width="9" height="75"/>
+                </imageView>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kaliningrad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXq-CZ-vge">
+                    <rect key="frame" x="45" y="91" width="85.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PPs-33-Jyz">
+                    <rect key="frame" x="0.0" y="149" width="375" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="0.29907570422535212" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="922-T8-a79"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kazan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwG-Zu-iPJ">
+                    <rect key="frame" x="45" y="37" width="47" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.094117647058823528" green="0.3529411764705882" blue="0.82745098039215681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="iZY-W2-HnL" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="32l-0B-NsH"/>
+                <constraint firstItem="40N-1g-eaB" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="4hZ-Vs-MIy"/>
+                <constraint firstItem="xsq-Bm-NP4" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="AY0-Ui-ihd"/>
+                <constraint firstItem="xsq-Bm-NP4" firstAttribute="top" secondItem="fwG-Zu-iPJ" secondAttribute="bottom" constant="17" id="Fxa-fI-1g9"/>
+                <constraint firstItem="xsq-Bm-NP4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="45" id="O2i-e8-a4W"/>
+                <constraint firstAttribute="trailing" secondItem="40N-1g-eaB" secondAttribute="trailing" constant="20" id="QTM-pr-CR0"/>
+                <constraint firstAttribute="bottom" secondItem="PPs-33-Jyz" secondAttribute="bottom" id="Rad-xg-aEC"/>
+                <constraint firstItem="nXq-CZ-vge" firstAttribute="leading" secondItem="xsq-Bm-NP4" secondAttribute="leading" id="TkM-T1-gBW"/>
+                <constraint firstAttribute="trailing" secondItem="PPs-33-Jyz" secondAttribute="trailing" id="czk-1I-hpS"/>
+                <constraint firstItem="40N-1g-eaB" firstAttribute="leading" secondItem="xsq-Bm-NP4" secondAttribute="trailing" id="fIb-Rk-AZ6"/>
+                <constraint firstItem="nXq-CZ-vge" firstAttribute="top" secondItem="xsq-Bm-NP4" secondAttribute="bottom" constant="15" id="nCh-6s-Jbc"/>
+                <constraint firstItem="PPs-33-Jyz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="obk-As-HLI"/>
+                <constraint firstItem="xsq-Bm-NP4" firstAttribute="leading" secondItem="iZY-W2-HnL" secondAttribute="trailing" constant="23" id="rFk-Ce-Tsb"/>
+                <constraint firstItem="fwG-Zu-iPJ" firstAttribute="leading" secondItem="xsq-Bm-NP4" secondAttribute="leading" id="yj8-Nb-2SD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="firstCityLabel" destination="fwG-Zu-iPJ" id="7p8-Ad-IfJ"/>
+                <outlet property="secondCityLabel" destination="nXq-CZ-vge" id="wXm-zx-bL5"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="-240"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Rectangle" width="48" height="48"/>
+        <image name="oval" width="9" height="75"/>
+    </resources>
+</document>
