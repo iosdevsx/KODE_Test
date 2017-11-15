@@ -10,7 +10,7 @@ import UIKit
 import Swinject
 import SwinjectStoryboard
 
-class DatePickerAssemblyContainer: AssemblyType {
+class DatePickerAssemblyContainer: Assembly {
 	
 	func assemble(container: Container) {
 		container.register(DatePickerInteractor.self) { (r, presenter: DatePickerPresenter) in
@@ -35,10 +35,10 @@ class DatePickerAssemblyContainer: AssemblyType {
 			
 			return presenter
 		}
-		
-		container.registerForStoryboard(DatePickerViewController.self) { r, viewController in
-			viewController.output = r.resolve(DatePickerPresenter.self, argument: viewController)
-		}
+        
+        container.storyboardInitCompleted(DatePickerViewController.self) { (r, controller) in
+            controller.output = r.resolve(DatePickerPresenter.self, argument: controller)
+        }
 	}
 	
 }

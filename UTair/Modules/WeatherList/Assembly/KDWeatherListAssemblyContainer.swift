@@ -10,7 +10,7 @@ import UIKit
 import Swinject
 import SwinjectStoryboard
 
-class WeatherListAssemblyContainer: AssemblyType {
+class WeatherListAssemblyContainer: Assembly {
 	
 	func assemble(container: Container) {
 		container.register(WeatherListInteractor.self) { (r, presenter: WeatherListPresenter) in
@@ -33,10 +33,10 @@ class WeatherListAssemblyContainer: AssemblyType {
 			
 			return presenter
 		}
-		
-		container.registerForStoryboard(WeatherListViewController.self) { r, viewController in
-			viewController.output = r.resolve(WeatherListPresenter.self, argument: viewController)
-		}
+        
+        container.storyboardInitCompleted(WeatherListViewController.self) { (r, controller) in
+            controller.output = r.resolve(WeatherListPresenter.self, argument: controller)
+        }
 	}
 	
 }

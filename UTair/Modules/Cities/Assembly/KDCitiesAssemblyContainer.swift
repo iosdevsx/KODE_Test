@@ -10,7 +10,7 @@ import UIKit
 import Swinject
 import SwinjectStoryboard
 
-class CitiesAssemblyContainer: AssemblyType {
+class CitiesAssemblyContainer: Assembly {
 	
 	func assemble(container: Container) {
 		container.register(CitiesInteractor.self) { (r, presenter: CitiesPresenter) in
@@ -36,10 +36,10 @@ class CitiesAssemblyContainer: AssemblyType {
 			
 			return presenter
 		}
-		
-		container.registerForStoryboard(CitiesViewController.self) { r, viewController in
-			viewController.output = r.resolve(CitiesPresenter.self, argument: viewController)
-		}
+        
+        container.storyboardInitCompleted(CitiesViewController.self) { (r, controller) in
+            controller.output = r.resolve(CitiesPresenter.self, argument: controller)
+        }
 	}
 	
 }
