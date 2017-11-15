@@ -10,7 +10,7 @@ import UIKit
 import Swinject
 import SwinjectStoryboard
 
-class SupportAssemblyContainer: AssemblyType {
+class SupportAssemblyContainer: Assembly {
 	
 	func assemble(container: Container) {
 		container.register(SupportInteractor.self) { (r, presenter: SupportPresenter) in
@@ -35,10 +35,10 @@ class SupportAssemblyContainer: AssemblyType {
 			
 			return presenter
 		}
-		
-		container.registerForStoryboard(SupportViewController.self) { r, viewController in
-			viewController.output = r.resolve(SupportPresenter.self, argument: viewController)
-		}
+        
+        container.storyboardInitCompleted(SupportViewController.self) { (r, controller) in
+            controller.output = r.resolve(SupportPresenter.self, argument: controller)
+        }
 	}
 	
 }

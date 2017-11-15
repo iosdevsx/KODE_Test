@@ -1,15 +1,15 @@
 PODS:
-  - Alamofire (4.4.0)
+  - Alamofire (4.5.1)
   - AlamofireObjectMapper (4.1.0):
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 2.0)
-  - ObjectMapper (2.2.5)
-  - SkyFloatingLabelTextField (3.0.0)
+  - ObjectMapper (2.2.9)
+  - SkyFloatingLabelTextField (3.3.0)
   - SnapKit (3.2.0)
-  - SwiftyJSON (3.1.4)
-  - Swinject (2.0.0-beta.2)
-  - SwinjectStoryboard (1.0.0-beta.2):
-    - Swinject (= 2.0.0-beta.2)
+  - SwiftyJSON (4.0.0)
+  - Swinject (2.1.1)
+  - SwinjectStoryboard (1.1.2):
+    - Swinject (~> 2.1)
   - ViperMcFlurry (1.5.2)
 
 DEPENDENCIES:
@@ -19,21 +19,21 @@ DEPENDENCIES:
   - SkyFloatingLabelTextField (~> 3.0)
   - SnapKit (~> 3.2.0)
   - SwiftyJSON
-  - Swinject (= 2.0.0-beta.2)
-  - SwinjectStoryboard (= 1.0.0-beta.2)
+  - Swinject
+  - SwinjectStoryboard
   - ViperMcFlurry
 
 SPEC CHECKSUMS:
-  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
-  ObjectMapper: fb30f71e08470d1e5a20b199fafe1246281db898
-  SkyFloatingLabelTextField: 35bc0c2653ad73c5fd8b7a34cfedf09c94367a1a
+  ObjectMapper: 63cfe41bc6f8e7c8f44344c49901b8ae7de14c52
+  SkyFloatingLabelTextField: 771be94beca6868a6cea187f70c965ebd81d2f93
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
-  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
-  Swinject: 69a893192efa9f2cc44be79ef423d04d571b6af9
-  SwinjectStoryboard: b52b45821a50386ef604c3cd098f8029a50a268d
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Swinject: afea49fd95f392b41171669f165842879c48fad6
+  SwinjectStoryboard: 92e75763c3299cdf627bef98a5180dc894864336
   ViperMcFlurry: 701bc3ad8d188b1f1e157ec0ddf4e77184de88b5
 
-PODFILE CHECKSUM: 92b93cf8bf96d388838f10d8e3de4dbdd58f3f4e
+PODFILE CHECKSUM: 471d48be7da95e273f67a71dda1ad5ca804c297d
 
 COCOAPODS: 1.2.0

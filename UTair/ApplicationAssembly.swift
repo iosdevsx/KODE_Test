@@ -11,15 +11,8 @@ import Swinject
 import SwinjectStoryboard
 
 class ApplicationAssembly {
-    
-    /*
-     *
-     * О_о первый раз пишу на swift...
-     *
-     */
-    
     class var assembler: Assembler {
-        return try! Assembler(assemblies: [
+        return Assembler([
             RootAssemblyContainer(),
             TicketsAssemblyContainer(),
             FlightsAssemblyContainer(),
@@ -32,9 +25,8 @@ class ApplicationAssembly {
     
     var assembler: Assembler
     
-    //If you want use custom Assembler
-    init(with assemblies: [AssemblyType]) {
-        assembler = try! Assembler(assemblies: assemblies)
+    init(_ assemblies: [Assembly], container: Container = Container()) {
+        assembler = Assembler(container: container)
     }
     
 }

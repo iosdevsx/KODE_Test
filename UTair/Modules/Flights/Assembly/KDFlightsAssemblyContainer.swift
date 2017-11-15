@@ -10,7 +10,7 @@ import UIKit
 import Swinject
 import SwinjectStoryboard
 
-class FlightsAssemblyContainer: AssemblyType {
+class FlightsAssemblyContainer: Assembly {
 	
 	func assemble(container: Container) {
 		container.register(FlightsInteractor.self) { (r, presenter: FlightsPresenter) in
@@ -35,10 +35,10 @@ class FlightsAssemblyContainer: AssemblyType {
 			
 			return presenter
 		}
-		
-		container.registerForStoryboard(FlightsViewController.self) { r, viewController in
-			viewController.output = r.resolve(FlightsPresenter.self, argument: viewController)
-		}
+        
+        container.storyboardInitCompleted(FlightsViewController.self) { (r, controller) in
+            controller.output = r.resolve(FlightsPresenter.self, argument: controller)
+        }
 	}
 	
 }

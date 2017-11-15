@@ -10,7 +10,7 @@ import UIKit
 import Swinject
 import SwinjectStoryboard
 
-class RegistrationAssemblyContainer: AssemblyType {
+class RegistrationAssemblyContainer: Assembly {
 	
 	func assemble(container: Container) {
 		container.register(RegistrationInteractor.self) { (r, presenter: RegistrationPresenter) in
@@ -36,9 +36,9 @@ class RegistrationAssemblyContainer: AssemblyType {
 			return presenter
 		}
 		
-		container.registerForStoryboard(RegistrationViewController.self) { r, viewController in
-			viewController.output = r.resolve(RegistrationPresenter.self, argument: viewController)
-		}
+        container.storyboardInitCompleted(RegistrationViewController.self) { (r, controller) in
+            controller.output = r.resolve(RegistrationPresenter.self, argument: controller)
+        }
 	}
 	
 }
