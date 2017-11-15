@@ -5,8 +5,8 @@
 
 target 'UTair' do
   pod 'ViperMcFlurry'
-  pod 'Swinject', '2.0.0-beta.2'
-  pod 'SwinjectStoryboard', '1.0.0-beta.2'
+  pod 'Swinject'
+  pod 'SwinjectStoryboard'
   pod 'Alamofire'
   pod 'SwiftyJSON'
   pod 'AlamofireObjectMapper', '~> 4.0'
