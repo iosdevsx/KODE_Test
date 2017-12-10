@@ -17,6 +17,7 @@
 		185761017101E434979E95A1 /* KDTicketsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5923323CCFF877A23E2E8F02 /* KDTicketsInteractorOutput.swift */; };
 		1B6FEE319E8744EA5F542F4E /* KDWeatherListAssemblyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EABCD17DA6DCAC39658D1C /* KDWeatherListAssemblyContainer.swift */; };
 		2129298BC3593862880B6A97 /* KDRootViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C561AB5FAE446157EB338A /* KDRootViewInput.swift */; };
+		28C896310563D9F642F9556F /* Pods_UTairTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0E9EEE5630178AFF0DF02B /* Pods_UTairTests.framework */; };
 		28DA158080F31A44EDA0B463 /* KDCitiesViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF72E60B2312C078935E9A /* KDCitiesViewOutput.swift */; };
 		29335BFB4A821B301D61A030 /* KDFlightsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E0BEBB3571E07ACC05F6A3 /* KDFlightsPresenter.swift */; };
 		29E0F0757C1DE01789C7DC75 /* KDCitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2AEE0A4B60C745C19254AD /* KDCitiesViewController.swift */; };
@@ -49,6 +50,7 @@
 		7B48A9CE8D366845EDD46DD6 /* KDSupportViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983E8729E37D2B09AF5717BB /* KDSupportViewOutput.swift */; };
 		8298ED0628B71C8234AC4209 /* KDRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD0AE318DE6C98FA22593D8 /* KDRootViewController.swift */; };
 		8774B004FBB5C189DDFD1937 /* KDDatePickerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D9E8CF4E007D4A554BF8D /* KDDatePickerInteractor.swift */; };
+		8C0E3C131FDD904D008E4945 /* Pods_UTair.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0E3C141FDD904D008E4945 /* Pods_UTair.framework */; };
 		8CAF57A31EF41C9800CB9F0D /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF57A11EF41C9800CB9F0D /* PersonCell.swift */; };
 		8CAF57A41EF41C9800CB9F0D /* PersonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CAF57A21EF41C9800CB9F0D /* PersonCell.xib */; };
 		8CAF57A61EF41D0700CB9F0D /* PersonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF57A51EF41D0700CB9F0D /* PersonComponent.swift */; };
@@ -59,6 +61,9 @@
 		8CAF57B11EF42CCD00CB9F0D /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF57B01EF42CCD00CB9F0D /* WeatherCell.swift */; };
 		8CAF57B31EF42CD500CB9F0D /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CAF57B21EF42CD500CB9F0D /* WeatherCell.xib */; };
 		8CAF57B51EF42D9700CB9F0D /* WeatherDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF57B41EF42D9700CB9F0D /* WeatherDataSource.swift */; };
+		8CCB2D3D1FDD897F0095E69A /* DatePickerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB2D3C1FDD897F0095E69A /* DatePickerViewControllerTests.swift */; };
+		8CCB2D401FDD8A780095E69A /* DatePickerMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB2D3F1FDD8A780095E69A /* DatePickerMocks.swift */; };
+		8CFDECAA1FDD7D15003FB674 /* DatePickerPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDECA91FDD7D15003FB674 /* DatePickerPresenterTests.swift */; };
 		8CFE4D5F1EE99AA300E07996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFE4D5E1EE99AA300E07996 /* AppDelegate.swift */; };
 		8CFE4D641EE99AA300E07996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE4D621EE99AA300E07996 /* Main.storyboard */; };
 		8CFE4D661EE99AA300E07996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFE4D651EE99AA300E07996 /* Assets.xcassets */; };
@@ -114,6 +119,7 @@
 		AC028A0CF7CAAA9BB2AEE98F /* KDTicketsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3CAA95A8739A954EAAAC31 /* KDTicketsInteractorInput.swift */; };
 		AD3FCF45A91E13CBB28785D1 /* KDCitiesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5E698AB3A10AB62D602C7 /* KDCitiesPresenter.swift */; };
 		AE95F0E405E60F31FB5E7C0C /* KDSupportInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08A44E3DED4EF1B9EC7F7FF /* KDSupportInteractorInput.swift */; };
+		B0C2CD1BBE576B324E2AA44C /* Pods_UTair.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0E3C141FDD904D008E4945 /* Pods_UTair.framework */; };
 		B1FC80BF6849631B312EB392 /* KDRegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7549CD4D5BF16AEAC65FA53 /* KDRegistrationPresenter.swift */; };
 		B784366CE0D2E52D33D00ADD /* KDFlightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01788766D167B7C976BB7BAD /* KDFlightsViewController.swift */; };
 		BC533B3F464F9A91D2AF31FD /* KDSupportViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F1939BFFA31F777C71EA4 /* KDSupportViewInput.swift */; };
@@ -146,6 +152,16 @@
 		FEFF431D8D08B1CE2AFD564D /* KDDatePickerAssemblyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F9A9FDB790AA7331E43682 /* KDDatePickerAssemblyContainer.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8CFDECAC1FDD7D15003FB674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CFE4D531EE99AA300E07996 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CFE4D5A1EE99AA300E07996;
+			remoteInfo = UTair;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		00FF9AD14D11815732142B09 /* KDWeatherListModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDWeatherListModuleInput.swift; sourceTree = "<group>"; };
 		01788766D167B7C976BB7BAD /* KDFlightsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDFlightsViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +177,7 @@
 		30044C607667BC03A2A1EBD2 /* KDDatePickerRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDDatePickerRouterInput.swift; sourceTree = "<group>"; };
 		3A200E9E389E08D3F0C6D3B0 /* KDCitiesInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesInteractorInput.swift; sourceTree = "<group>"; };
 		3D280FB89FDD2C667980915C /* KDRootPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootPresenter.swift; sourceTree = "<group>"; };
+		3FBDE214A4AA6C807D6F00C9 /* Pods-UTairTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTairTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UTairTests/Pods-UTairTests.release.xcconfig"; sourceTree = "<group>"; };
 		3FC693AA3D544DBA0CCA10D7 /* KDDatePickerViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDDatePickerViewOutput.swift; sourceTree = "<group>"; };
 		40B8A4D3A7AB599699F95C6F /* KDRegistrationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationRouter.swift; sourceTree = "<group>"; };
 		4333A13DD4D993E451796AB8 /* KDCitiesRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesRouterInput.swift; sourceTree = "<group>"; };
@@ -195,6 +212,7 @@
 		85D5E698AB3A10AB62D602C7 /* KDCitiesPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesPresenter.swift; sourceTree = "<group>"; };
 		893C3025A1B90B82E60891FA /* KDRegistrationViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationViewInput.swift; sourceTree = "<group>"; };
 		8C068AB99BAAA9922851F2F1 /* KDTicketsViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsViewOutput.swift; sourceTree = "<group>"; };
+		8C0E3C141FDD904D008E4945 /* Pods_UTair.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_UTair.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF57A11EF41C9800CB9F0D /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 		8CAF57A21EF41C9800CB9F0D /* PersonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonCell.xib; sourceTree = "<group>"; };
 		8CAF57A51EF41D0700CB9F0D /* PersonComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonComponent.swift; sourceTree = "<group>"; };
@@ -205,6 +223,11 @@
 		8CAF57B01EF42CCD00CB9F0D /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		8CAF57B21EF42CD500CB9F0D /* WeatherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
 		8CAF57B41EF42D9700CB9F0D /* WeatherDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDataSource.swift; sourceTree = "<group>"; };
+		8CCB2D3C1FDD897F0095E69A /* DatePickerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewControllerTests.swift; sourceTree = "<group>"; };
+		8CCB2D3F1FDD8A780095E69A /* DatePickerMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerMocks.swift; sourceTree = "<group>"; };
+		8CFDECA71FDD7D15003FB674 /* UTairTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTairTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFDECA91FDD7D15003FB674 /* DatePickerPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPresenterTests.swift; sourceTree = "<group>"; };
+		8CFDECAB1FDD7D15003FB674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CFE4D5B1EE99AA300E07996 /* UTair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFE4D5E1EE99AA300E07996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CFE4D631EE99AA300E07996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -252,6 +275,7 @@
 		A7549CD4D5BF16AEAC65FA53 /* KDRegistrationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationPresenter.swift; sourceTree = "<group>"; };
 		A822487D58A2D79D67F078FD /* KDCitiesViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDCitiesViewInput.swift; sourceTree = "<group>"; };
 		AA3CAA95A8739A954EAAAC31 /* KDTicketsInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsInteractorInput.swift; sourceTree = "<group>"; };
+		AB0E9EEE5630178AFF0DF02B /* Pods_UTairTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UTairTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0326D0474470FEFFFF652A4 /* KDSupportInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDSupportInteractorOutput.swift; sourceTree = "<group>"; };
 		B1DE431E1E2F603A986BD420 /* Pods-UTair.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTair.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UTair/Pods-UTair.debug.xcconfig"; sourceTree = "<group>"; };
 		B29AB2EEDD37F7CC967CEE64 /* KDRegistrationInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationInteractorInput.swift; sourceTree = "<group>"; };
@@ -278,6 +302,7 @@
 		E43AFFF6A7A1A488587618C4 /* KDRootViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootViewOutput.swift; sourceTree = "<group>"; };
 		E88B9B3D2B9EA9C7EFC23D29 /* KDFlightsInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDFlightsInteractorOutput.swift; sourceTree = "<group>"; };
 		EA93557F43C214573A7D63A1 /* KDRootAssemblyContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRootAssemblyContainer.swift; sourceTree = "<group>"; };
+		EFE607B6DDD7197FDE678A19 /* Pods-UTairTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTairTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UTairTests/Pods-UTairTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F09D8CE246F6362C94E1F18D /* KDWeatherListRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDWeatherListRouterInput.swift; sourceTree = "<group>"; };
 		F2E57C741C7C54CDE89559B0 /* KDTicketsViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDTicketsViewInput.swift; sourceTree = "<group>"; };
 		F3AA54ED2768ADDB6DB6E663 /* KDRegistrationModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KDRegistrationModuleInput.swift; sourceTree = "<group>"; };
@@ -291,11 +316,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8CFDECA41FDD7D15003FB674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0E3C131FDD904D008E4945 /* Pods_UTair.framework in Frameworks */,
+				28C896310563D9F642F9556F /* Pods_UTairTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CFE4D581EE99AA300E07996 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FEAC42F66D15F48EB89A81BB /* Pods_UTair.framework in Frameworks */,
+				B0C2CD1BBE576B324E2AA44C /* Pods_UTair.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +422,8 @@
 			children = (
 				B1DE431E1E2F603A986BD420 /* Pods-UTair.debug.xcconfig */,
 				5DF2C68F86B1BDA8A0549065 /* Pods-UTair.release.xcconfig */,
+				EFE607B6DDD7197FDE678A19 /* Pods-UTairTests.debug.xcconfig */,
+				3FBDE214A4AA6C807D6F00C9 /* Pods-UTairTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -413,7 +450,9 @@
 		22E33D91903A64AAD5ABF317 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8C0E3C141FDD904D008E4945 /* Pods_UTair.framework */,
 				FB034C0593CB7941FCCD34F4 /* Pods_UTair.framework */,
+				AB0E9EEE5630178AFF0DF02B /* Pods_UTairTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -594,10 +633,30 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		8CCB2D3E1FDD8A2E0095E69A /* DatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB2D3F1FDD8A780095E69A /* DatePickerMocks.swift */,
+				8CCB2D3C1FDD897F0095E69A /* DatePickerViewControllerTests.swift */,
+				8CFDECA91FDD7D15003FB674 /* DatePickerPresenterTests.swift */,
+			);
+			path = DatePickerTests;
+			sourceTree = "<group>";
+		};
+		8CFDECA81FDD7D15003FB674 /* UTairTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB2D3E1FDD8A2E0095E69A /* DatePickerTests */,
+				8CFDECAB1FDD7D15003FB674 /* Info.plist */,
+			);
+			path = UTairTests;
+			sourceTree = "<group>";
+		};
 		8CFE4D521EE99AA300E07996 = {
 			isa = PBXGroup;
 			children = (
 				8CFE4D5D1EE99AA300E07996 /* UTair */,
+				8CFDECA81FDD7D15003FB674 /* UTairTests */,
 				8CFE4D5C1EE99AA300E07996 /* Products */,
 				164CA9B1FC4E254DFBB48FC7 /* Pods */,
 				22E33D91903A64AAD5ABF317 /* Frameworks */,
@@ -608,6 +667,7 @@
 			isa = PBXGroup;
 			children = (
 				8CFE4D5B1EE99AA300E07996 /* UTair.app */,
+				8CFDECA71FDD7D15003FB674 /* UTairTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -956,6 +1016,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8CFDECA61FDD7D15003FB674 /* UTairTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CFDECAE1FDD7D15003FB674 /* Build configuration list for PBXNativeTarget "UTairTests" */;
+			buildPhases = (
+				C0EBFD742981D2C0176FEE77 /* [CP] Check Pods Manifest.lock */,
+				8CFDECA31FDD7D15003FB674 /* Sources */,
+				8CFDECA41FDD7D15003FB674 /* Frameworks */,
+				8CFDECA51FDD7D15003FB674 /* Resources */,
+				59B9E5AC23468B8DF4E43CD4 /* [CP] Embed Pods Frameworks */,
+				58590ED36DC9C544D4F8F5AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CFDECAD1FDD7D15003FB674 /* PBXTargetDependency */,
+			);
+			name = UTairTests;
+			productName = UTairTests;
+			productReference = 8CFDECA71FDD7D15003FB674 /* UTairTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8CFE4D5A1EE99AA300E07996 /* UTair */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CFE4D6D1EE99AA300E07996 /* Build configuration list for PBXNativeTarget "UTair" */;
@@ -982,13 +1063,20 @@
 		8CFE4D531EE99AA300E07996 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Юрий Логинов";
 				TargetAttributes = {
+					8CFDECA61FDD7D15003FB674 = {
+						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = TWW7UPTWB8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CFE4D5A1EE99AA300E07996;
+					};
 					8CFE4D5A1EE99AA300E07996 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = TWW7UPTWB8;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1007,11 +1095,19 @@
 			projectRoot = "";
 			targets = (
 				8CFE4D5A1EE99AA300E07996 /* UTair */,
+				8CFDECA61FDD7D15003FB674 /* UTairTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8CFDECA51FDD7D15003FB674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CFE4D591EE99AA300E07996 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1065,6 +1161,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		58590ED36DC9C544D4F8F5AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UTairTests/Pods-UTairTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59B9E5AC23468B8DF4E43CD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UTairTests/Pods-UTairTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		81715D284263D6EC156B684F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1080,9 +1206,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UTair/Pods-UTair-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C0EBFD742981D2C0176FEE77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8CFDECA31FDD7D15003FB674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCB2D3D1FDD897F0095E69A /* DatePickerViewControllerTests.swift in Sources */,
+				8CCB2D401FDD8A780095E69A /* DatePickerMocks.swift in Sources */,
+				8CFDECAA1FDD7D15003FB674 /* DatePickerPresenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CFE4D571EE99AA300E07996 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1215,6 +1366,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8CFDECAD1FDD7D15003FB674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CFE4D5A1EE99AA300E07996 /* UTair */;
+			targetProxy = 8CFDECAC1FDD7D15003FB674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		8CFE4D621EE99AA300E07996 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -1235,6 +1394,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8CFDECAF1FDD7D15003FB674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE607B6DDD7197FDE678A19 /* Pods-UTairTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TWW7UPTWB8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UTairTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.UTairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTair.app/UTair";
+			};
+			name = Debug;
+		};
+		8CFDECB01FDD7D15003FB674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBDE214A4AA6C807D6F00C9 /* Pods-UTairTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TWW7UPTWB8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UTairTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.UTairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTair.app/UTair";
+			};
+			name = Release;
+		};
 		8CFE4D6B1EE99AA300E07996 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1245,7 +1448,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1253,7 +1458,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1295,7 +1504,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1303,7 +1514,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1339,7 +1554,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KD.UTair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1354,13 +1570,23 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KD.UTair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8CFDECAE1FDD7D15003FB674 /* Build configuration list for PBXNativeTarget "UTairTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFDECAF1FDD7D15003FB674 /* Debug */,
+				8CFDECB01FDD7D15003FB674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8CFE4D561EE99AA300E07996 /* Build configuration list for PBXProject "UTair" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

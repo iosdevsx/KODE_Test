@@ -64,7 +64,7 @@ class CitiesViewController: UIViewController, CitiesViewInput {
         showMessage(title: message)
     }
     
-    func cancelTap() { 
+    @objc func cancelTap() { 
         dismiss(animated: true, completion: nil)
     }
     

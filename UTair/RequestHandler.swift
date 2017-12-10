@@ -88,7 +88,7 @@ class RequestHandler {
 
 class ResultHandler {
     typealias SuccessClosure = (RequestHandler.Output)->Void
-    typealias FailureClosure = (Void)->Void
+    typealias FailureClosure = ()->Void
     
     
     /// Массивы success и failure блоков

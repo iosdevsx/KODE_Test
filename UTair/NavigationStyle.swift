@@ -17,7 +17,7 @@ extension UINavigationController {
         navigationBar.isTranslucent = false
         navigationBar.setBackgroundImage(UIImage.init(), for: .default)
         navigationBar.shadowImage = UIImage.init()
-        navigationBar.titleTextAttributes = [NSFontAttributeName:UIFont.systemFont(ofSize: 16, weight: UIFontWeightMedium), NSForegroundColorAttributeName:UIColor.white]
+        navigationBar.titleTextAttributes = [NSAttributedStringKey.font:UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.medium), NSAttributedStringKey.foregroundColor:UIColor.white]
     }
     
     func setWhiteStyle() {
@@ -26,6 +26,6 @@ extension UINavigationController {
         navigationBar.isTranslucent = false
         navigationBar.setBackgroundImage(UIImage.init(), for: .default)
         navigationBar.shadowImage = UIImage.init()
-        navigationBar.titleTextAttributes = [NSFontAttributeName:UIFont.systemFont(ofSize: 16, weight: UIFontWeightMedium), NSForegroundColorAttributeName:UIColor.black]
+        navigationBar.titleTextAttributes = [NSAttributedStringKey.font:UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.medium), NSAttributedStringKey.foregroundColor:UIColor.black]
     }
 }

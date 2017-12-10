@@ -60,42 +60,6 @@ class UTairTests: XCTestCase {
     func testCorrectDateForwarded() {
         let date = Date.init()
         presenter.handleDateSelected(date: date)
-        XCTAssertEqual(date, delegateMock.selectedDate)
-    }
-}
-
-//MARK: Mocks
-
-class DatePickerViewControllerMock : DatePickerViewInput {
-    
-    var setupInitialStateCalled = false
-    var showCalled = false
-    
-    
-    func setupInitialState() {
-        setupInitialStateCalled = true
-    }
-    
-    func show(message: String) {
-        showCalled = true
-    }
-}
-
-class DatePickerRouterMock : DatePickerRouterInput {
-    var closeCalled = false
-    
-    func close() {
-        closeCalled = true
-    }
-}
-
-class DatePickerModuleDelegateMock : DatePickerModuleDelegate {
-    
-    var dateSelectedCalled = false
-    var selectedDate : Date?
-    
-    func dateSelected(date: Date) {
-        selectedDate = date
-        dateSelectedCalled = true
+        assert(date == delegateMock.selectedDate)
     }
 }

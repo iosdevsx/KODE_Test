@@ -7,6 +7,6 @@
 //
 import Foundation
 
-@objc protocol WeatherListModuleInput: class {
+protocol WeatherListModuleInput: class {
     func configure(toCity: String, fromCity: String)
 }

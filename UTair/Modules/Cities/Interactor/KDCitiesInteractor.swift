@@ -23,7 +23,7 @@ class CitiesInteractor: CitiesInteractorInput {
                 self?.cities = responseObject.citiesArray
                 self?.output.fetchCitiesSuccess(cities: responseObject.citiesArray!)
             }
-        }).failure({ failed in
+        }).failure({
             self.output.fetchCitiesFailed()
         })
     }

@@ -39,7 +39,7 @@ class CitiesCell : UITableViewCell {
         delegate?.cities(from: firstCityLabel.text!, to: secondCityLabel.text!)
     }
     
-    func actionTapLabel(sender: UITapGestureRecognizer) {
+    @objc func actionTapLabel(sender: UITapGestureRecognizer) {
         var destination: DateViewDestination
         
         if (sender.view?.isEqual(firstCityLabel))! {

@@ -28,11 +28,11 @@ class DatePickerViewController: UIViewController, DatePickerViewInput {
         showMessage(title: message)
     }
     
-    @IBAction func actionCancelTap(_ sender: Any) {
+    @IBAction func actionCancelTap() {
         output.handleCancelTap()
     }
     
-    @IBAction func actionDoneTap(_ sender: Any) {
+    @IBAction func actionDoneTap() {
         output.handleDateSelected(date: datePicker.date)
     }
 }

@@ -48,7 +48,7 @@ class SupportViewController: UIViewController, SupportViewInput {
         navigationItem.title = "Справка"
     }
     
-    func actionBackTap() {
+    @objc func actionBackTap() {
         self.navigationController?.popViewController(animated: true)
     }
     

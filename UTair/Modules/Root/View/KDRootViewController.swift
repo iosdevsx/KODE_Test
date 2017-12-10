@@ -48,7 +48,7 @@ class RootViewController: UIViewController, RootViewInput {
         return .lightContent
     }
     
-    func actionQuestionTap() {
+    @objc func actionQuestionTap() {
         output.handleQuestion()
     }
     

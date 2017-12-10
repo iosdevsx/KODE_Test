@@ -38,7 +38,7 @@ class Popup : UIView {
         self.addGestureRecognizer(gesture)
     }
     
-    func actionTapGesture() {
+    @objc func actionTapGesture() {
         remove(animated: true)
     }
     

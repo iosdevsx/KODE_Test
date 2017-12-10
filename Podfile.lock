@@ -4,7 +4,7 @@ PODS:
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 2.0)
   - ObjectMapper (2.2.9)
-  - SkyFloatingLabelTextField (3.3.0)
+  - SkyFloatingLabelTextField (3.4.0)
   - SnapKit (3.2.0)
   - SwiftyJSON (4.0.0)
   - Swinject (2.1.1)
@@ -27,13 +27,13 @@ SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
   ObjectMapper: 63cfe41bc6f8e7c8f44344c49901b8ae7de14c52
-  SkyFloatingLabelTextField: 771be94beca6868a6cea187f70c965ebd81d2f93
+  SkyFloatingLabelTextField: 703aa1420b697392b1e7dba25571180dde018477
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   Swinject: afea49fd95f392b41171669f165842879c48fad6
   SwinjectStoryboard: 92e75763c3299cdf627bef98a5180dc894864336
   ViperMcFlurry: 701bc3ad8d188b1f1e157ec0ddf4e77184de88b5
 
-PODFILE CHECKSUM: 471d48be7da95e273f67a71dda1ad5ca804c297d
+PODFILE CHECKSUM: d2cadb6c5673e6c97d60802ed2f95ba017620517
 
 COCOAPODS: 1.2.0

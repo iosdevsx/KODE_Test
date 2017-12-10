@@ -14,3 +14,16 @@ target 'UTair' do
   pod 'SnapKit', '~> 3.2.0'
   pod 'ObjectMapper'
 end
+
+target 'UTairTests' do
+    pod 'ViperMcFlurry'
+    pod 'Swinject'
+    pod 'SwinjectStoryboard'
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    pod 'AlamofireObjectMapper', '~> 4.0'
+    pod 'SkyFloatingLabelTextField', '~> 3.0'
+    pod 'SnapKit', '~> 3.2.0'
+    pod 'ObjectMapper'
+end
+

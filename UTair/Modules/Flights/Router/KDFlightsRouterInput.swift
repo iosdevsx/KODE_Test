@@ -9,7 +9,7 @@
 import Foundation
 import ViperMcFlurry
 
-protocol FlightsRouterInput: RamblerViperModuleInput {
+protocol FlightsRouterInput {
     func showCitiesModule(delegate: CitiesModuleDelegate)
     func showDatePicker(delegate: DatePickerModuleDelegate)
     func closeDatePicker()

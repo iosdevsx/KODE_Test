@@ -8,6 +8,7 @@
 
 import Foundation
 @testable import UTair
+@testable import ViperMcFlurry
 
 class DatePickerViewControllerMock : DatePickerViewInput {
     
@@ -43,4 +44,24 @@ class DatePickerModuleDelegateMock : DatePickerModuleDelegate {
     }
 }
 
-
+class DatePickerViewOutputMock : DatePickerViewOutput {
+    
+    var viewIsReadyCalled = false
+    var handleCancelTapCalled = false
+    var handleDateSelectedCalled = false
+    
+    var selectedDate: Date?
+    
+    func viewIsReady() {
+        viewIsReadyCalled = true
+    }
+    
+    func handleCancelTap() {
+        handleCancelTapCalled = true
+    }
+    
+    func handleDateSelected(date: Date) {
+        handleDateSelectedCalled = true
+        selectedDate = date
+    }
+}

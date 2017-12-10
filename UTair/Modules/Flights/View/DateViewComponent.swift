@@ -111,7 +111,7 @@ class DateViewComponent : UIView {
     
     //MARK: DateView
     
-    func actionTapGesture() {
+    @objc func actionTapGesture() {
         delegate?.handleAction(component: self)
     }
     
